@@ -1,15 +1,17 @@
 # Robots.txt for MDK Gallery (https://workmdk.netlify.app/)
-# Allow all global search engine crawlers and AI answer bots for 100% search indexation, AEO & GEO top ranking
+# Allows all search engine crawlers and AI answer bots for 100% search indexation, AEO & GEO top ranking
 
 User-agent: *
 Allow: /
 
-# Traditional Search Engines (Google, Bing, Yahoo, DuckDuckGo, Baidu, Yandex, Apple)
+# Traditional Search Engines (Google, Bing, Yahoo, DuckDuckGo, Baidu, Yandex, Apple, Naver)
 User-agent: Googlebot
 Allow: /
 User-agent: Googlebot-Image
 Allow: /
 User-agent: Googlebot-News
+Allow: /
+User-agent: Googlebot-Video
 Allow: /
 User-agent: Bingbot
 Allow: /
@@ -26,7 +28,7 @@ Allow: /
 User-agent: Naverbot
 Allow: /
 
-# AI Answer Engines & Generative Search Bots (ChatGPT, Claude, Gemini, DeepSeek, Grok, Meta, Perplexity, etc.)
+# AI Answer Engines & Generative Search Bots (ChatGPT, Claude, Gemini, Perplexity, DeepSeek, Grok, Meta, Cohere)
 User-agent: GPTBot
 Allow: /
 User-agent: ChatGPT-User
@@ -60,4 +62,3 @@ Allow: /
 
 # XML Sitemap Location
 Sitemap: https://workmdk.netlify.app/sitemap.xml
-
