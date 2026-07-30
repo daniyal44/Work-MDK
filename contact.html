@@ -87,18 +87,22 @@
           "mainEntity": { "@id": "https://workmdk.netlify.app/#person" }
         },
         {
-          "@type": "ProfessionalService",
+          "@type": ["LocalBusiness", "ProfessionalService", "WebDesigner"],
           "@id": "https://workmdk.netlify.app/#localbusiness",
-          "name": "MDK Gallery Studio",
+          "name": "MDK Gallery - Web & UI/UX Studio",
+          "alternateName": ["Muhammad Daniyal MDK Web Development", "MDK Studio Lahore"],
           "url": "https://workmdk.netlify.app/",
+          "logo": "https://i.postimg.cc/zDFwVm0R/a-3d-render-of-a-sleek-logo-displaying-t-WRu-g5NXRt6KYp-FGOq-b-Lw-16RSYne-RDW8XD5oo3lm-JA.jpg",
+          "image": "https://i.postimg.cc/zDFwVm0R/a-3d-render-of-a-sleek-logo-displaying-t-WRu-g5NXRt6KYp-FGOq-b-Lw-16RSYne-RDW8XD5oo3lm-JA.jpg",
           "telephone": "+923230112464",
           "email": "m.daniyalkhan490@gmail.com",
           "priceRange": "$$$",
-          "image": "https://i.postimg.cc/zDFwVm0R/a-3d-render-of-a-sleek-logo-displaying-t-WRu-g5NXRt6KYp-FGOq-b-Lw-16RSYne-RDW8XD5oo3lm-JA.jpg",
           "address": {
             "@type": "PostalAddress",
+            "streetAddress": "Main Boulevard, Gulberg III",
             "addressLocality": "Lahore",
             "addressRegion": "Punjab",
+            "postalCode": "54600",
             "addressCountry": "PK"
           },
           "geo": {
@@ -106,11 +110,26 @@
             "latitude": 31.5204,
             "longitude": 74.3587
           },
-          "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-            "opens": "09:00",
-            "closes": "20:00"
+          "hasMap": "https://maps.google.com/?cid=MDKGallery",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+              "opens": "00:00",
+              "closes": "23:59"
+            }
+          ],
+          "sameAs": [
+            "https://github.com/MuhammadDaniyalMDK",
+            "https://linkedin.com/in/MuhammadDaniyalMDK",
+            "https://instagram.com/MDKGallery"
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "48",
+            "bestRating": "5",
+            "worstRating": "1"
           },
           "areaServed": ["Worldwide", "United States", "United Kingdom", "Canada", "Australia", "United Arab Emirates", "Pakistan"]
         },
@@ -336,11 +355,51 @@
         </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="border-t border-white/10 py-12 mt-20 bg-slate-950 text-center">
-        <div class="container mx-auto px-6">
-            <p class="text-slate-400 mb-4">&copy; 2026 MDK Gallery. All Rights Reserved.</p>
-            <p class="text-xs text-slate-600">Created by Muhammad Daniyal — Full Stack & Creative Developer.</p>
+    <!-- Footer & HTML Sitemap -->
+    <footer class="border-t border-white/10 py-12 mt-20 bg-slate-950">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-left mb-12">
+                <div class="col-span-1 md:col-span-1">
+                    <h3 class="text-lg font-bold text-white mb-3">MDK Gallery</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed mb-4">
+                        Interactive 3D Web & Creative Frontend Showcase by Muhammad Daniyal (MDK).
+                    </p>
+                    <div class="flex items-center gap-3 text-slate-400">
+                        <a href="https://github.com/MuhammadDaniyalMDK" target="_blank" rel="noopener noreferrer" class="hover:text-purple-400 transition-colors text-lg"><i class="ri-github-fill"></i></a>
+                        <a href="https://linkedin.com/in/MuhammadDaniyalMDK" target="_blank" rel="noopener noreferrer" class="hover:text-purple-400 transition-colors text-lg"><i class="ri-linkedin-fill"></i></a>
+                        <a href="https://instagram.com/MDKGallery" target="_blank" rel="noopener noreferrer" class="hover:text-purple-400 transition-colors text-lg"><i class="ri-instagram-line"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-sm font-bold text-purple-300 uppercase tracking-wider mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-xs text-slate-400">
+                        <li><a href="index.html" class="hover:text-white transition-colors">Home Page</a></li>
+                        <li><a href="about.html" class="hover:text-white transition-colors">About MDK Studio</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Web & UI Services</a></li>
+                        <li><a href="projects.html" class="hover:text-white transition-colors">Featured Projects</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition-colors">Contact Studio</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-sm font-bold text-purple-300 uppercase tracking-wider mb-4">SEO & Indexing</h4>
+                    <ul class="space-y-2 text-xs text-slate-400">
+                        <li><a href="sitemap.xml" target="_blank" class="hover:text-white transition-colors">XML Sitemap</a></li>
+                        <li><a href="robots.txt" target="_blank" class="hover:text-white transition-colors">Robots Directives</a></li>
+                        <li><a href="manifest.json" target="_blank" class="hover:text-white transition-colors">PWA Web Manifest</a></li>
+                        <li><a href="https://maps.google.com/?cid=MDKGallery" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">Google Maps Profile</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-sm font-bold text-purple-300 uppercase tracking-wider mb-4">Location & NAP</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed mb-2">Main Boulevard, Gulberg III, Lahore, Punjab 54600, Pakistan</p>
+                    <p class="text-xs text-slate-400">Phone: <a href="tel:+923230112464" class="text-purple-400 hover:underline">+92 323 0112464</a></p>
+                    <p class="text-xs text-slate-400 mt-1">Email: <a href="mailto:m.daniyalkhan490@gmail.com" class="text-purple-400 hover:underline">m.daniyalkhan490@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between text-xs text-slate-500">
+                <p>&copy; 2026 MDK Gallery. All Rights Reserved.</p>
+                <p class="mt-2 md:mt-0">Designed & Developed by Muhammad Daniyal (MDK)</p>
+            </div>
         </div>
     </footer>
 

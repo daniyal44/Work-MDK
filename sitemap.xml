@@ -3,121 +3,135 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <!-- Home Page / Root -->
+  <!-- Root Domain URL -->
   <url>
     <loc>https://workmdk.netlify.app/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://workmdk.netlify.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://workmdk.netlify.app/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://workmdk.netlify.app/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://workmdk.netlify.app/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://workmdk.netlify.app/"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://workmdk.netlify.app/"/>
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://workmdk.netlify.app/"/>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://workmdk.netlify.app/"/>
     <image:image>
       <image:loc>https://i.postimg.cc/zDFwVm0R/a-3d-render-of-a-sleek-logo-displaying-t-WRu-g5NXRt6KYp-FGOq-b-Lw-16RSYne-RDW8XD5oo3lm-JA.jpg</image:loc>
       <image:title>MDK Gallery - Interactive 3D &amp; Creative Frontend Showcase</image:title>
+      <image:caption>Official 3D Logo and Brand Emblem for MDK Gallery by Muhammad Daniyal (MDK)</image:caption>
     </image:image>
   </url>
 
+  <!-- Home Page Canonical File -->
   <url>
     <loc>https://workmdk.netlify.app/index.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://workmdk.netlify.app/index.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://workmdk.netlify.app/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://workmdk.netlify.app/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://workmdk.netlify.app/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://workmdk.netlify.app/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://workmdk.netlify.app/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://workmdk.netlify.app/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://workmdk.netlify.app/index.html"/>
     <image:image>
       <image:loc>https://i.postimg.cc/zDFwVm0R/a-3d-render-of-a-sleek-logo-displaying-t-WRu-g5NXRt6KYp-FGOq-b-Lw-16RSYne-RDW8XD5oo3lm-JA.jpg</image:loc>
-      <image:title>MDK Gallery - Home Page Interactive Showcase</image:title>
+      <image:title>MDK Gallery - Home Page Interactive 3D Showcase</image:title>
+      <image:caption>MDK Art Gallery Home Page Banner and Interactive 3D Web UI</image:caption>
     </image:image>
   </url>
 
-  <!-- About Page (Google Search Console Priority Fix) -->
+  <!-- About Page Canonical -->
   <url>
     <loc>https://workmdk.netlify.app/about.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://workmdk.netlify.app/about.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://workmdk.netlify.app/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://workmdk.netlify.app/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://workmdk.netlify.app/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://workmdk.netlify.app/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://workmdk.netlify.app/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://workmdk.netlify.app/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://workmdk.netlify.app/about.html"/>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;h=600&amp;q=80</image:loc>
       <image:title>About MDK Gallery - Creative Studio Team &amp; Philosophy</image:title>
+      <image:caption>Muhammad Daniyal (MDK) and the MDK Gallery Creative Web Development Team</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=600&amp;h=700&amp;q=80</image:loc>
-      <image:title>MDK Gallery Design Layout Strategy Session</image:title>
+      <image:title>MDK Gallery Web Design Strategy Session</image:title>
+      <image:caption>Interactive UI/UX Prototyping Strategy Session at MDK Web Studio</image:caption>
     </image:image>
   </url>
 
-  <url>
-    <loc>https://workmdk.netlify.app/about</loc>
-    <lastmod>2026-07-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.95</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://workmdk.netlify.app/about"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://workmdk.netlify.app/about"/>
-  </url>
-
-  <!-- Services Page -->
+  <!-- Services Page Canonical -->
   <url>
     <loc>https://workmdk.netlify.app/services.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.90</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://workmdk.netlify.app/services.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://workmdk.netlify.app/services.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://workmdk.netlify.app/services.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://workmdk.netlify.app/services.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://workmdk.netlify.app/services.html"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://workmdk.netlify.app/services.html"/>
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://workmdk.netlify.app/services.html"/>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://workmdk.netlify.app/services.html"/>
     <image:image>
       <image:loc>https://i.postimg.cc/zDFwVm0R/a-3d-render-of-a-sleek-logo-displaying-t-WRu-g5NXRt6KYp-FGOq-b-Lw-16RSYne-RDW8XD5oo3lm-JA.jpg</image:loc>
       <image:title>MDK Gallery Web &amp; UI/UX Development Services</image:title>
+      <image:caption>Custom Full-Stack Web Development, 3D Web Graphics, and Global SEO/AEO Services</image:caption>
     </image:image>
   </url>
 
-  <url>
-    <loc>https://workmdk.netlify.app/services</loc>
-    <lastmod>2026-07-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Projects Page -->
+  <!-- Projects Page Canonical -->
   <url>
     <loc>https://workmdk.netlify.app/projects.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.90</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://workmdk.netlify.app/projects.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://workmdk.netlify.app/projects.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://workmdk.netlify.app/projects.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://workmdk.netlify.app/projects.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://workmdk.netlify.app/projects.html"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://workmdk.netlify.app/projects.html"/>
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://workmdk.netlify.app/projects.html"/>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://workmdk.netlify.app/projects.html"/>
     <image:image>
       <image:loc>https://i.postimg.cc/05bcb8rt/MDK2.png</image:loc>
       <image:title>Muhammad Daniyal Portfolio - Creative Full Stack Projects</image:title>
+      <image:caption>Interactive Showcase of Web Design, 3D Canvas, and Application Development Projects</image:caption>
     </image:image>
   </url>
 
-  <url>
-    <loc>https://workmdk.netlify.app/projects</loc>
-    <lastmod>2026-07-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Contact Page -->
+  <!-- Contact Page Canonical -->
   <url>
     <loc>https://workmdk.netlify.app/contact.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://workmdk.netlify.app/contact.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://workmdk.netlify.app/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://workmdk.netlify.app/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://workmdk.netlify.app/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://workmdk.netlify.app/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en-AU" href="https://workmdk.netlify.app/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en-AE" href="https://workmdk.netlify.app/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en-PK" href="https://workmdk.netlify.app/contact.html"/>
     <image:image>
       <image:loc>https://i.postimg.cc/zDFwVm0R/a-3d-render-of-a-sleek-logo-displaying-t-WRu-g5NXRt6KYp-FGOq-b-Lw-16RSYne-RDW8XD5oo3lm-JA.jpg</image:loc>
       <image:title>Contact Muhammad Daniyal - MDK Gallery Studio</image:title>
+      <image:caption>Get in touch with MDK Gallery Studio in Lahore, Punjab, Pakistan for Web Development Consultation</image:caption>
     </image:image>
-  </url>
-
-  <url>
-    <loc>https://workmdk.netlify.app/contact</loc>
-    <lastmod>2026-07-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
   </url>
 
 </urlset>
