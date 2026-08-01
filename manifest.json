@@ -1,7 +1,7 @@
 {
-  "name": "MDK Gallery | Interactive 3D & Creative Frontend Showcase",
-  "short_name": "MDK Gallery",
-  "description": "Interactive CSS animations, 3D web elements, and responsive web systems designed by Muhammad Daniyal (MDK) for global brands.",
+  "name": "MDK Gallery | Zyphuel, ItxMDK, Poke nexus & Muhammad Daniyal",
+  "short_name": "Zyphuel MDK",
+  "description": "Zyphuel, zphuel, ItxMDK, itxmtk, MuhammadDaniel, itsmdk, itx dk, itxM, itcM, Poke nexus, Muhammad Daniyal, Dashacart, Hittop, Scale verse, Ladoni - Web Engineering & Interactive 3D Systems.",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#090d16",
@@ -19,5 +19,22 @@
       "type": "image/jpeg"
     }
   ],
-  "categories": ["design", "productivity", "developer tools", "portfolio"]
+  "categories": ["design", "productivity", "developer tools", "portfolio", "technology"],
+  "keywords": [
+    "Zyphuel",
+    "zphuel",
+    "ItxMDK",
+    "itxmtk",
+    "MuhammadDaniel",
+    "itsmdk",
+    "itx dk",
+    "itxM",
+    "itcM",
+    "Poke nexus",
+    "Muhammad Daniyal",
+    "Dashacart",
+    "Hittop",
+    "Scale verse",
+    "Ladoni"
+  ]
 }
