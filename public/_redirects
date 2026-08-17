@@ -1,0 +1,16 @@
+# Redirect rules for MDK Gallery on Netlify
+
+# Clean URL redirects
+/index          /               301
+/index.html     /               301
+/about.html     /about          301
+/services.html  /services       301
+/projects.html  /projects       301
+/contact.html   /contact        301
+
+# Canonical domain redirects for Netlify temporary domains
+https://works-mdk.netlify.app/*    https://workmdk.netlify.app/:splat  301!
+https://works.mdk.netfily.app/*    https://workmdk.netlify.app/:splat  301!
+
+# SPA Fallback for React Router
+/*              /index.html     200
