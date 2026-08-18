@@ -5,7 +5,7 @@ export const featuredProjects = [
     description: "A full-featured online store system containing a searchable product catalog, interactive cart management, checkout mechanisms, and secure payment processing.",
     image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     tags: ["React", "Node.js", "MongoDB", "Stripe API"],
-    demoUrl: "https://dashacart.netlify.app/",
+    demoUrl: "https://Dashcart.netlify.app/",
     githubUrl: "https://github.com/MuhammadDaniyalMDK"
   },
   {

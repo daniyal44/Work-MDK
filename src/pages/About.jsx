@@ -10,7 +10,7 @@ export default function About() {
     "@id": "https://workmdk.netlify.app/about#aboutpage",
     "url": "https://workmdk.netlify.app/about",
     "name": "About MDK Gallery - Zyphuel & ItxMDK Studio",
-    "description": "Learn about MDK Gallery, Zyphuel, zphuel, Poke nexus, Dashacart, Hittop, Scale verse, Ladoni, and founder Muhammad Daniyal (itsmdk / ItxMDK / MuhammadDaniel)."
+    "description": "Learn about MDK Gallery, Zyphuel, zphuel, Poke nexus, Dashcart, Hittop, Scale verse, Ladoni, and founder Muhammad Daniyal (itsmdk / ItxMDK / MuhammadDaniel)."
   };
 
   return (

@@ -10,7 +10,7 @@ export default function Services() {
     "@id": "https://workmdk.netlify.app/services#service",
     "url": "https://workmdk.netlify.app/services",
     "name": "MDK Gallery - Web & UI/UX Design Services",
-    "description": "Explore digital services by Muhammad Daniyal (itsmdk / ItxMDK / MuhammadDaniel / itxmtk / zphuel): custom Web Engineering, 3D Web UI, Zyphuel, Poke nexus, Dashacart, Hittop, Scale verse, and Ladoni architecture."
+    "description": "Explore digital services by Muhammad Daniyal (itsmdk / ItxMDK / MuhammadDaniel / itxmtk / zphuel): custom Web Engineering, 3D Web UI, Zyphuel, Poke nexus, Dashcart, Hittop, Scale verse, and Ladoni architecture."
   };
 
   return (

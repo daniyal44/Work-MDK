@@ -10,7 +10,7 @@ export default function Projects() {
     "@id": "https://workmdk.netlify.app/projects#profilepage",
     "url": "https://workmdk.netlify.app/projects",
     "name": "Muhammad Daniyal Portfolio - Zyphuel & ItxMDK Projects",
-    "description": "Portfolio of Full-Stack Developer Muhammad Daniyal (ItxMDK / itsmdk / zphuel) showcasing Zyphuel, Poke nexus, Dashacart, Hittop, Scale verse, and Ladoni projects."
+    "description": "Portfolio of Full-Stack Developer Muhammad Daniyal (ItxMDK / itsmdk / zphuel) showcasing Zyphuel, Poke nexus, Dashcart, Hittop, Scale verse, and Ladoni projects."
   };
 
   return (

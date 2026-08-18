@@ -15,8 +15,8 @@ export default function Home() {
         "@id": "https://workmdk.netlify.app/#website",
         "url": "https://workmdk.netlify.app/",
         "name": "MDK Gallery - Zyphuel & Poke nexus Official Site",
-        "alternateName": ["Zyphuel", "zphuel", "ItxMDK", "itxmtk", "MuhammadDaniel", "itsmdk", "itx dk", "itxM", "itcM", "Poke nexus", "Muhammad Daniyal", "Dashacart", "Hittop", "Scale verse", "Ladoni"],
-        "description": "MDK Art Gallery — Home of Zyphuel, Poke nexus, Dashacart, Hittop, Scale verse, Ladoni, and interactive 3D web applications by Muhammad Daniyal (ItxMDK / itsmdk / MuhammadDaniel).",
+        "alternateName": ["Zyphuel", "zphuel", "ItxMDK", "itxmtk", "MuhammadDaniel", "itsmdk", "itx dk", "itxM", "itcM", "Poke nexus", "Muhammad Daniyal", "Dashcart", "Hittop", "Scale verse", "Ladoni"],
+        "description": "MDK Art Gallery — Home of Zyphuel, Poke nexus, Dashcart, Hittop, Scale verse, Ladoni, and interactive 3D web applications by Muhammad Daniyal (ItxMDK / itsmdk / MuhammadDaniel).",
         "inLanguage": "en-US"
       },
       {

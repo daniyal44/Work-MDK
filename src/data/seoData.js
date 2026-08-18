@@ -18,33 +18,33 @@ export const siteMetadata = {
 
 export const pageSEO = {
   home: {
-    title: "MDK Art Gallery | Zyphuel, ItxMDK, Poke nexus, Dashacart, Hittop, Scale verse, Ladoni & Muhammad Daniyal",
-    description: "Explore MDK Gallery by Muhammad Daniyal (itsmdk / ItxMDK / MuhammadDaniel / itxmtk / zphuel). Official digital hub for Zyphuel, Poke nexus, Dashacart, Hittop, Scale verse, and Ladoni interactive systems.",
-    keywords: "Zyphuel, zphuel, ItxMDK, itxmtk, MuhammadDaniel, itsmdk, itx dk, itxM, itcM, Poke nexus, Muhammad Daniyal, Dashacart, Hittop, Scale verse, Ladoni, MDK Art Gallery, 3D Web Development, Interactive Web Design, Full Stack Developer, Creative Frontend, Generative AI Web Art",
+    title: "MDK Art Gallery | Zyphuel, ItxMDK, Poke nexus, Dashcart, Hittop, Scale verse, Ladoni & Muhammad Daniyal",
+    description: "Explore MDK Gallery by Muhammad Daniyal (itsmdk / ItxMDK / MuhammadDaniel / itxmtk / zphuel). Official digital hub for Zyphuel, Poke nexus, Dashcart, Hittop, Scale verse, and Ladoni interactive systems.",
+    keywords: "Zyphuel, zphuel, ItxMDK, itxmtk, MuhammadDaniel, itsmdk, itx dk, itxM, itcM, Poke nexus, Muhammad Daniyal, Dashcart, Hittop, Scale verse, Ladoni, MDK Art Gallery, 3D Web Development, Interactive Web Design, Full Stack Developer, Creative Frontend, Generative AI Web Art",
     canonical: "/"
   },
   about: {
     title: "About MDK Gallery | Zyphuel, zphuel, ItxMDK, Poke nexus & Muhammad Daniyal",
-    description: "About MDK Gallery: Founded by Muhammad Daniyal (itsmdk / ItxMDK / MuhammadDaniel / itxmtk / zphuel). Creator of Zyphuel, Poke nexus, Dashacart, Hittop, Scale verse, and Ladoni.",
-    keywords: "Zyphuel, zphuel, ItxMDK, itxmtk, MuhammadDaniel, itsmdk, itx dk, itxM, itcM, Poke nexus, Muhammad Daniyal, Dashacart, Hittop, Scale verse, Ladoni, About MDK Gallery, Creative Web Agency History, Web Design Strategy Lahore, Interactive Development Team, Web Solutions Pakistan",
+    description: "About MDK Gallery: Founded by Muhammad Daniyal (itsmdk / ItxMDK / MuhammadDaniel / itxmtk / zphuel). Creator of Zyphuel, Poke nexus, Dashcart, Hittop, Scale verse, and Ladoni.",
+    keywords: "Zyphuel, zphuel, ItxMDK, itxmtk, MuhammadDaniel, itsmdk, itx dk, itxM, itcM, Poke nexus, Muhammad Daniyal, Dashcart, Hittop, Scale verse, Ladoni, About MDK Gallery, Creative Web Agency History, Web Design Strategy Lahore, Interactive Development Team, Web Solutions Pakistan",
     canonical: "/about"
   },
   projects: {
-    title: "Projects | Zyphuel, zphuel, ItxMDK, Poke nexus, Dashacart, Hittop, Scale verse, Ladoni",
-    description: "Projects by Muhammad Daniyal (itsmdk / ItxMDK / MuhammadDaniel / itxmtk / zphuel): Portfolio of Zyphuel, Poke nexus, Dashacart, Hittop, Scale verse, and Ladoni digital systems.",
-    keywords: "Zyphuel, zphuel, ItxMDK, itxmtk, MuhammadDaniel, itsmdk, itx dk, itxM, itcM, Poke nexus, Muhammad Daniyal, Dashacart, Hittop, Scale verse, Ladoni, MDK Portfolio, Full-Stack Developer, React Developer Lahore, Node.js, Python, UI/UX Designer Pakistan",
+    title: "Projects | Zyphuel, zphuel, ItxMDK, Poke nexus, Dashcart, Hittop, Scale verse, Ladoni",
+    description: "Projects by Muhammad Daniyal (itsmdk / ItxMDK / MuhammadDaniel / itxmtk / zphuel): Portfolio of Zyphuel, Poke nexus, Dashcart, Hittop, Scale verse, and Ladoni digital systems.",
+    keywords: "Zyphuel, zphuel, ItxMDK, itxmtk, MuhammadDaniel, itsmdk, itx dk, itxM, itcM, Poke nexus, Muhammad Daniyal, Dashcart, Hittop, Scale verse, Ladoni, MDK Portfolio, Full-Stack Developer, React Developer Lahore, Node.js, Python, UI/UX Designer Pakistan",
     canonical: "/projects"
   },
   services: {
-    title: "Services | Zyphuel, Poke nexus, Dashacart, Hittop, Scale verse, Ladoni, ItxMDK & Muhammad Daniyal",
-    description: "Explore digital services by Muhammad Daniyal (itsmdk / ItxMDK / MuhammadDaniel / itxmtk / zphuel): custom Web Engineering, 3D Web UI, Zyphuel, Poke nexus, Dashacart, Hittop, Scale verse, and Ladoni architecture.",
-    keywords: "Zyphuel, zphuel, ItxMDK, itxmtk, MuhammadDaniel, itsmdk, itx dk, itxM, itcM, Poke nexus, Muhammad Daniyal, Dashacart, Hittop, Scale verse, Ladoni, Web Development Services Lahore, UI/UX Design Agency Pakistan, Custom React Development, 3D Web Graphics, Brand Strategy, MDK Services",
+    title: "Services | Zyphuel, Poke nexus, Dashcart, Hittop, Scale verse, Ladoni, ItxMDK & Muhammad Daniyal",
+    description: "Explore digital services by Muhammad Daniyal (itsmdk / ItxMDK / MuhammadDaniel / itxmtk / zphuel): custom Web Engineering, 3D Web UI, Zyphuel, Poke nexus, Dashcart, Hittop, Scale verse, and Ladoni architecture.",
+    keywords: "Zyphuel, zphuel, ItxMDK, itxmtk, MuhammadDaniel, itsmdk, itx dk, itxM, itcM, Poke nexus, Muhammad Daniyal, Dashcart, Hittop, Scale verse, Ladoni, Web Development Services Lahore, UI/UX Design Agency Pakistan, Custom React Development, 3D Web Graphics, Brand Strategy, MDK Services",
     canonical: "/services"
   },
   contact: {
-    title: "Contact | Zyphuel, zphuel, ItxMDK, Poke nexus, Dashacart, Hittop, Scale verse, Ladoni, Muhammad Daniyal",
-    description: "Contact Muhammad Daniyal (itsmdk / ItxMDK / MuhammadDaniel / itxmtk / zphuel). Founder & lead architect of Zyphuel, Poke nexus, Dashacart, Hittop, Scale verse, and Ladoni.",
-    keywords: "Zyphuel, zphuel, ItxMDK, itxmtk, MuhammadDaniel, itsmdk, itx dk, itxM, itcM, Poke nexus, Muhammad Daniyal, Dashacart, Hittop, Scale verse, Ladoni, Contact Muhammad Daniyal, MDK Lahore Phone, Web Development Lahore Contact, Hire Full Stack Developer Pakistan",
+    title: "Contact | Zyphuel, zphuel, ItxMDK, Poke nexus, Dashcart, Hittop, Scale verse, Ladoni, Muhammad Daniyal",
+    description: "Contact Muhammad Daniyal (itsmdk / ItxMDK / MuhammadDaniel / itxmtk / zphuel). Founder & lead architect of Zyphuel, Poke nexus, Dashcart, Hittop, Scale verse, and Ladoni.",
+    keywords: "Zyphuel, zphuel, ItxMDK, itxmtk, MuhammadDaniel, itsmdk, itx dk, itxM, itcM, Poke nexus, Muhammad Daniyal, Dashcart, Hittop, Scale verse, Ladoni, Contact Muhammad Daniyal, MDK Lahore Phone, Web Development Lahore Contact, Hire Full Stack Developer Pakistan",
     canonical: "/contact"
   }
 };

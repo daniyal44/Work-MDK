@@ -19,7 +19,7 @@ export default function Contact() {
     "@id": "https://workmdk.netlify.app/contact#contactpage",
     "url": "https://workmdk.netlify.app/contact",
     "name": "Contact Muhammad Daniyal - Zyphuel & ItxMDK Creator",
-    "description": "Get in touch with Muhammad Daniyal (itsmdk / ItxMDK / zphuel) for Zyphuel, Poke nexus, Dashacart, Hittop, Scale verse, and Ladoni inquiries."
+    "description": "Get in touch with Muhammad Daniyal (itsmdk / ItxMDK / zphuel) for Zyphuel, Poke nexus, Dashcart, Hittop, Scale verse, and Ladoni inquiries."
   };
 
   const handleChange = (e) => {
