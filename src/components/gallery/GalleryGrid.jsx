@@ -5,7 +5,7 @@ import { galleryItems } from '../../data/galleryData';
 export default function GalleryGrid() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
-  const [sortOrder, setSortOrder] = useState('az');
+  const [sortOrder, setSortOrder] = useState('latest');
 
   // Categories list
   const categoryFilters = [
@@ -16,7 +16,7 @@ export default function GalleryGrid() {
     { label: 'UI & Forms', value: 'ui' },
   ];
 
-  // Filtering & Sorting
+  // Filtering & Sorting (Latest first by default)
   const filteredItems = useMemo(() => {
     let result = [...galleryItems];
 
@@ -63,8 +63,12 @@ export default function GalleryGrid() {
       }
     }
 
-    // Sorting
-    if (sortOrder === 'az') {
+    // Sorting logic (Latest First by default)
+    if (sortOrder === 'latest') {
+      result.sort((a, b) => b.id - a.id);
+    } else if (sortOrder === 'oldest') {
+      result.sort((a, b) => a.id - b.id);
+    } else if (sortOrder === 'az') {
       result.sort((a, b) =>
         a.title.toLowerCase().localeCompare(b.title.toLowerCase(), undefined, {
           numeric: true,
@@ -86,7 +90,7 @@ export default function GalleryGrid() {
   const resetFilters = () => {
     setSearchTerm('');
     setSelectedCategory('all');
-    setSortOrder('az');
+    setSortOrder('latest');
   };
 
   return (
@@ -94,11 +98,14 @@ export default function GalleryGrid() {
       <div className="border-t border-white/10 pt-16 mb-12">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-300 text-xs font-semibold uppercase tracking-wider mb-3">
+              <i className="ri-flashlight-line text-cyan-400"></i> Latest Projects First
+            </div>
             <h2 className="text-3xl font-bold mb-3 flex items-center gap-2 font-display">
               <i className="ri-compass-3-line text-purple-400"></i> Interactive Showcase
             </h2>
             <p className="text-slate-400 max-w-xl text-sm leading-relaxed">
-              Browse through Daniyal's gallery of responsive widgets, CSS art experiments, and live frontend demos.
+              Explore Muhammad Daniyal's latest responsive widgets, 3D web artworks, and live frontend demos sorted chronologically.
             </p>
           </div>
           <div className="text-sm font-semibold px-4 py-2 rounded-xl bg-purple-500/10 border border-purple-500/20 text-purple-300 self-start md:self-auto">
@@ -161,6 +168,8 @@ export default function GalleryGrid() {
               onChange={(e) => setSortOrder(e.target.value)}
               className="w-full sm:w-auto px-4 py-3 rounded-xl glass-input focus:ring-2 focus:ring-purple-500 text-sm bg-[#0f172a] text-slate-200 cursor-pointer"
             >
+              <option value="latest" className="bg-slate-900 text-slate-200">Latest Projects (Default)</option>
+              <option value="oldest" className="bg-slate-900 text-slate-200">Oldest Projects</option>
               <option value="az" className="bg-slate-900 text-slate-200">Name (A → Z)</option>
               <option value="za" className="bg-slate-900 text-slate-200">Name (Z → A)</option>
             </select>

@@ -1159,5 +1159,14 @@ export const galleryItems = [
     "alt": "Weather Application Dashboard UI preview",
     "tag": "UI Dashboard",
     "source": "external"
+  },
+  {
+    "id": 130,
+    "title": "Zyphuel",
+    "url": "https://zyphuel.netlify.app/",
+    "image": "/public/images/logo.png",
+    "alt": "Zyphuel Fuel Delivery within 45 mins at door step",
+    "tag": "Fuel Delivery Website",
+    "source": "external"
   }
 ];

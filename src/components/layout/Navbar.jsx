@@ -7,6 +7,7 @@ export default function Navbar() {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'Projects', path: '/projects' },
+    { name: 'Articles', path: '/articles' },
     { name: 'Services', path: '/services' },
     { name: 'About', path: '/about' },
     { name: 'Contact', path: '/contact' },
@@ -27,7 +28,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Navigation Links */}
-        <div className="hidden md:flex space-x-8 items-center">
+        <div className="hidden md:flex space-x-7 items-center">
           {navLinks.map((link) => (
             <NavLink
               key={link.path}
@@ -43,12 +44,7 @@ export default function Navbar() {
               {link.name}
             </NavLink>
           ))}
-          <Link
-            to="/contact"
-            className="px-4 py-2 text-xs font-semibold uppercase tracking-wider rounded-lg glass-panel hover:bg-white/10 transition duration-300 border border-white/10 text-white"
-          >
-            Hire Me
-          </Link>
+          
         </div>
 
         {/* Mobile Menu Toggle Button */}

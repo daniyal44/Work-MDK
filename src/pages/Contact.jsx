@@ -15,11 +15,51 @@ export default function Contact() {
 
   const contactSchema = {
     "@context": "https://schema.org",
-    "@type": "ContactPage",
-    "@id": "https://workmdk.netlify.app/contact#contactpage",
-    "url": "https://workmdk.netlify.app/contact",
-    "name": "Contact Muhammad Daniyal - Zyphuel & ItxMDK Creator",
-    "description": "Get in touch with Muhammad Daniyal (itsmdk / ItxMDK / zphuel) for Zyphuel, Poke nexus, Dashcart, Hittop, Scale verse, and Ladoni inquiries."
+    "@graph": [
+      {
+        "@type": "ContactPage",
+        "@id": "https://workmdk.netlify.app/contact#contactpage",
+        "url": "https://workmdk.netlify.app/contact",
+        "name": "Contact Muhammad Daniyal - Zyphuel & ItxMDK Creator",
+        "description": "Get in touch with Muhammad Daniyal (itsmdk / ItxMDK / zphuel) for Zyphuel mobile fuel delivery, Poke nexus, Dashcart, Hittop, Scale verse, and Ladoni inquiries.",
+        "inLanguage": "en-US",
+        "mainEntity": { "@id": "https://workmdk.netlify.app/#person" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://workmdk.netlify.app/contact#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://workmdk.netlify.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Contact Studio",
+            "item": "https://workmdk.netlify.app/contact"
+          }
+        ]
+      },
+      {
+        "@type": ["LocalBusiness", "ProfessionalService"],
+        "@id": "https://workmdk.netlify.app/#localbusiness",
+        "name": "MDK Gallery & Zyphuel Support",
+        "url": "https://workmdk.netlify.app/",
+        "telephone": siteMetadata.phone,
+        "email": siteMetadata.email,
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Main Boulevard, Gulberg III",
+          "addressLocality": "Lahore",
+          "addressRegion": "Punjab",
+          "postalCode": "54600",
+          "addressCountry": "PK"
+        }
+      }
+    ]
   };
 
   const handleChange = (e) => {
@@ -69,7 +109,7 @@ export default function Contact() {
               Get In <span className="text-gradient-purple-cyan">Touch</span>
             </h1>
             <p className="max-w-2xl mx-auto text-lg text-slate-400 leading-relaxed mb-8">
-              Have an enterprise web project, a custom API system, or a creative design request? We are ready to help you launch.
+              Connect with <strong className="text-white">Muhammad Daniyal (ItxMDK)</strong> for <strong className="text-purple-300">Zyphuel</strong> on-demand fuel logistics, custom web & 3D software engineering, or enterprise business collaborations.
             </p>
             <div className="w-24 h-1 bg-purple-500 mx-auto rounded-full"></div>
           </div>
@@ -100,8 +140,8 @@ export default function Contact() {
                       <i className="ri-map-pin-line text-lg"></i>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-slate-200 text-sm">Our Location</h4>
-                      <p className="text-slate-400 text-xs mt-1">Lahore, Pakistan (Serving Globally)</p>
+                      <h4 className="font-semibold text-slate-200 text-sm">Studio & HQ Location</h4>
+                      <p className="text-slate-400 text-xs mt-1">Main Boulevard, Gulberg III, Lahore, Pakistan (54600)</p>
                     </div>
                   </div>
 
@@ -110,7 +150,7 @@ export default function Contact() {
                       <i className="ri-phone-line text-lg"></i>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-slate-200 text-sm">Phone Number</h4>
+                      <h4 className="font-semibold text-slate-200 text-sm">Phone / WhatsApp</h4>
                       <a href={`tel:${siteMetadata.phone}`} className="text-slate-400 hover:text-purple-400 text-xs mt-1 block">
                         (+92) 323-0112464
                       </a>
@@ -129,6 +169,16 @@ export default function Contact() {
                       <p className="text-slate-500 text-[11px] mt-0.5">ItxMDK@proton.me</p>
                     </div>
                   </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="bg-purple-500/10 border border-purple-500/25 p-3 rounded-xl text-cyan-400">
+                      <i className="ri-truck-line text-lg"></i>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-slate-200 text-sm">Zyphuel Fuel Dispatch</h4>
+                      <p className="text-slate-400 text-xs mt-1">24/7 Doorstep Delivery across Lahore & Punjab</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -137,7 +187,7 @@ export default function Contact() {
             <div className="w-full lg:w-3/5 glass-panel rounded-3xl border border-white/5 p-8 md:p-10 shadow-2xl">
               <h2 className="text-2xl md:text-3xl font-bold text-[#f8fafc] mb-2 font-display">Send A Message</h2>
               <p className="text-slate-400 mb-8 text-sm">
-                Fill out the form details below, and we will get back to you within 24 hours.
+                Fill out the form details below, and our team will get back to you within 24 hours.
               </p>
 
               <form onSubmit={handleSubmit} className="space-y-6" autoComplete="off">
@@ -183,10 +233,11 @@ export default function Contact() {
                     className="w-full px-4 py-3.5 rounded-xl glass-input cursor-pointer bg-[#0f172a] text-slate-200 text-sm"
                   >
                     <option value="" disabled>Select a subject</option>
-                    <option value="general" className="bg-slate-900">General Web Inquiry</option>
-                    <option value="collaboration" className="bg-slate-900">Business Collaboration</option>
-                    <option value="commission" className="bg-slate-900">Commission Request</option>
-                    <option value="feedback" className="bg-slate-900">Product Feedback</option>
+                    <option value="zyphuel_fuel" className="bg-slate-900">Zyphuel Mobile Fuel & Fleet Inquiry</option>
+                    <option value="web_dev" className="bg-slate-900">Full-Stack Web / App Development</option>
+                    <option value="ui_ux_3d" className="bg-slate-900">UI/UX & 3D Interactive Web Design</option>
+                    <option value="collaboration" className="bg-slate-900">Business Collaboration / Partnership</option>
+                    <option value="seo_geo" className="bg-slate-900">SEO / AEO / GEO Strategy Inquiry</option>
                     <option value="other" className="bg-slate-900">Other Options</option>
                   </select>
                 </div>
@@ -202,7 +253,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3.5 rounded-xl glass-input placeholder-slate-500 text-sm resize-none"
-                    placeholder="How can we help your business? Describe project specs..."
+                    placeholder="How can we help? Describe your project requirements, fuel delivery fleet needs, or technical specifications..."
                   ></textarea>
                 </div>
 
@@ -231,7 +282,7 @@ export default function Contact() {
                   <div className="flex items-center gap-2">
                     <i className="ri-checkbox-circle-line text-lg text-emerald-400"></i>
                     <span className="text-sm font-medium">
-                      Thank you! Your message has been sent successfully. We will connect soon.
+                      Thank you! Your inquiry has been received. Our team will contact you shortly.
                     </span>
                   </div>
                 </div>
