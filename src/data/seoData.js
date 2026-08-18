@@ -5,14 +5,14 @@ export const siteMetadata = {
   author: "Muhammad Daniyal (MDK / ItxMDK / itsmdk / Zyphuel)",
   phone: "+923230112464",
   email: "m.daniyalkhan490@gmail.com",
-  location: "Main Boulevard, Gulberg III, Lahore, Punjab 54600, Pakistan",
+  location: "Lahore, Punjab 54400, Pakistan",
   socials: {
-    github: "https://github.com/MuhammadDaniyalMDK",
-    linkedin: "https://linkedin.com/in/MuhammadDaniyalMDK",
-    instagram: "https://instagram.com/MDKGallery",
-    twitter: "https://twitter.com/MuhammadDaniyalMDK",
-    youtube: "https://youtube.com/@MuhammadDaniyalMDK",
-    tiktok: "https://tiktok.com/@itsmdk_official"
+    github: "https://github.com/daniyal44/",
+    linkedin: "https://www.linkedin.com/in/muhammad-daniyal490",
+    linkedinCompany: "https://www.linkedin.com/company/zyphuel/",
+    facebook: "https://www.facebook.com/muhammad.daniyal.522942/",
+    GoogleBusinessProfile: "https://share.google/xdzykoietvAVMR2LS",
+    
   }
 };
 

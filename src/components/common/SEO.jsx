@@ -53,7 +53,7 @@ export default function SEO({
       <meta property="og:image:height" content="630" />
       <meta property="og:site_name" content="MDK Gallery — Zyphuel & Poke nexus" />
       <meta property="og:locale" content="en_US" />
-      <meta property="article:author" content="https://github.com/MuhammadDaniyalMDK" />
+      <meta property="article:author" content="https://github.com/daniyal44/" />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />

@@ -16,15 +16,16 @@ export default function Navbar() {
   const closeMobileMenu = () => setIsMobileOpen(false);
 
   return (
-    <nav className="glass-nav fixed w-full z-30 top-0 shadow-md">
+    <nav className="glass-nav fixed w-full z-30 top-0 shadow-sm transition-all duration-300">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link 
           to="/" 
           onClick={closeMobileMenu}
-          className="text-2xl font-bold flex items-center gap-2 text-gradient-purple-cyan tracking-wider font-display"
+          className="text-2xl font-bold flex items-center gap-2 text-blue-600 tracking-wider font-display group"
         >
-          <i className="ri-gallery-line text-2xl text-purple-400"></i> MDK Gallery
+          <i className="ri-gallery-line text-2xl text-blue-600 group-hover:rotate-12 transition-transform duration-300"></i>
+          <span className="text-slate-900 font-extrabold">MDK <span className="text-blue-600">Gallery</span></span>
         </Link>
 
         {/* Desktop Navigation Links */}
@@ -36,8 +37,8 @@ export default function Navbar() {
               className={({ isActive }) =>
                 `text-sm font-medium transition-colors duration-300 ${
                   isActive
-                    ? 'text-purple-300 font-semibold border-b-2 border-purple-400 pb-0.5'
-                    : 'text-slate-300 hover:text-purple-400'
+                    ? 'text-blue-600 font-semibold border-b-2 border-blue-600 pb-0.5'
+                    : 'text-slate-600 hover:text-blue-600'
                 }`
               }
             >
@@ -50,7 +51,7 @@ export default function Navbar() {
         {/* Mobile Menu Toggle Button */}
         <button
           onClick={() => setIsMobileOpen(!isMobileOpen)}
-          className="md:hidden text-2xl focus:outline-none text-slate-200 hover:text-purple-400 transition"
+          className="md:hidden text-2xl focus:outline-none text-slate-800 hover:text-blue-600 transition"
           aria-label="Toggle navigation menu"
         >
           <i className={isMobileOpen ? 'ri-close-line' : 'ri-menu-line'}></i>
@@ -59,28 +60,22 @@ export default function Navbar() {
 
       {/* Mobile Navigation Drawer */}
       {isMobileOpen && (
-        <div className="md:hidden glass-nav w-full px-6 py-4 border-t border-white/5 space-y-4 animate-fade-in-up">
+        <div className="md:hidden bg-white/95 backdrop-blur-md w-full px-6 py-4 border-t border-slate-200 shadow-lg space-y-4 animate-fade-in-up">
           {navLinks.map((link) => (
             <NavLink
               key={link.path}
               to={link.path}
               onClick={closeMobileMenu}
               className={({ isActive }) =>
-                `block text-lg py-2 border-b border-white/5 transition-colors ${
-                  isActive ? 'text-purple-300 font-semibold' : 'text-slate-300 hover:text-purple-400'
+                `block text-lg py-2 border-b border-slate-100 transition-colors ${
+                  isActive ? 'text-blue-600 font-semibold' : 'text-slate-700 hover:text-blue-600'
                 }`
               }
             >
               {link.name}
             </NavLink>
           ))}
-          <Link
-            to="/contact"
-            onClick={closeMobileMenu}
-            className="block text-center bg-purple-600 hover:bg-purple-700 py-3 rounded-lg font-semibold text-white transition"
-          >
-            Hire Me
-          </Link>
+          
         </div>
       )}
     </nav>

@@ -95,27 +95,27 @@ export default function GalleryGrid() {
 
   return (
     <div id="gallery-section" className="scroll-mt-24">
-      <div className="border-t border-white/10 pt-16 mb-12">
+      <div className="border-t border-slate-200 pt-16 mb-12">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-300 text-xs font-semibold uppercase tracking-wider mb-3">
-              <i className="ri-flashlight-line text-cyan-400"></i> Latest Projects First
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-semibold uppercase tracking-wider mb-3">
+              <i className="ri-flashlight-line text-blue-600"></i> Latest Projects First
             </div>
-            <h2 className="text-3xl font-bold mb-3 flex items-center gap-2 font-display">
-              <i className="ri-compass-3-line text-purple-400"></i> Interactive Showcase
+            <h2 className="text-3xl font-bold mb-3 flex items-center gap-2 font-display text-slate-900">
+              <i className="ri-compass-3-line text-blue-600"></i> Interactive Showcase
             </h2>
-            <p className="text-slate-400 max-w-xl text-sm leading-relaxed">
+            <p className="text-slate-500 max-w-xl text-sm leading-relaxed">
               Explore Muhammad Daniyal's latest responsive widgets, 3D web artworks, and live frontend demos sorted chronologically.
             </p>
           </div>
-          <div className="text-sm font-semibold px-4 py-2 rounded-xl bg-purple-500/10 border border-purple-500/20 text-purple-300 self-start md:self-auto">
-            Showing <span className="text-white font-bold">{filteredItems.length}</span> / {galleryItems.length} Experiments
+          <div className="text-sm font-semibold px-4 py-2 rounded-xl bg-blue-50 border border-blue-200 text-blue-700 self-start md:self-auto">
+            Showing <span className="text-blue-900 font-bold">{filteredItems.length}</span> / {galleryItems.length} Experiments
           </div>
         </div>
       </div>
 
       {/* Filter & Search Bar */}
-      <div className="flex flex-col lg:flex-row items-center justify-between gap-4 mb-8 p-4 rounded-2xl glass-panel border border-white/5">
+      <div className="flex flex-col lg:flex-row items-center justify-between gap-4 mb-8 p-4 rounded-2xl bg-white border border-slate-200 shadow-sm">
         {/* Search Input */}
         <div className="relative w-full lg:w-1/2">
           <i className="ri-search-line absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 text-lg"></i>
@@ -124,13 +124,13 @@ export default function GalleryGrid() {
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             placeholder="Search experiments (e.g. 3D, particle, clock, button)..."
-            className="w-full pl-12 pr-10 py-3 rounded-xl glass-input placeholder-slate-500 focus:ring-2 focus:ring-purple-500 text-sm"
+            className="w-full pl-12 pr-10 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white placeholder-slate-400 focus:ring-2 focus:ring-blue-500 text-sm text-slate-900"
             aria-label="Search experiments"
           />
           {searchTerm && (
             <button
               onClick={() => setSearchTerm('')}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700"
               aria-label="Clear search"
             >
               <i className="ri-close-circle-line text-lg"></i>
@@ -141,17 +141,17 @@ export default function GalleryGrid() {
         {/* Filters and Sort Dropdowns */}
         <div className="w-full lg:w-auto flex flex-wrap sm:flex-nowrap items-center gap-3">
           <div className="flex items-center gap-2 w-full sm:w-auto">
-            <label htmlFor="gallery-category" className="text-xs font-semibold uppercase tracking-wider text-slate-400 whitespace-nowrap">
+            <label htmlFor="gallery-category" className="text-xs font-semibold uppercase tracking-wider text-slate-500 whitespace-nowrap">
               Category:
             </label>
             <select
               id="gallery-category"
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
-              className="w-full sm:w-auto px-4 py-3 rounded-xl glass-input focus:ring-2 focus:ring-purple-500 text-sm bg-[#0f172a] text-slate-200 cursor-pointer"
+              className="w-full sm:w-auto px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 text-slate-700 focus:ring-2 focus:ring-blue-500 text-sm cursor-pointer"
             >
               {categoryFilters.map((cat) => (
-                <option key={cat.value} value={cat.value} className="bg-slate-900 text-slate-200">
+                <option key={cat.value} value={cat.value}>
                   {cat.label}
                 </option>
               ))}
@@ -159,19 +159,19 @@ export default function GalleryGrid() {
           </div>
 
           <div className="flex items-center gap-2 w-full sm:w-auto">
-            <label htmlFor="gallery-sort" className="text-xs font-semibold uppercase tracking-wider text-slate-400 whitespace-nowrap">
+            <label htmlFor="gallery-sort" className="text-xs font-semibold uppercase tracking-wider text-slate-500 whitespace-nowrap">
               Sort:
             </label>
             <select
               id="gallery-sort"
               value={sortOrder}
               onChange={(e) => setSortOrder(e.target.value)}
-              className="w-full sm:w-auto px-4 py-3 rounded-xl glass-input focus:ring-2 focus:ring-purple-500 text-sm bg-[#0f172a] text-slate-200 cursor-pointer"
+              className="w-full sm:w-auto px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 text-slate-700 focus:ring-2 focus:ring-blue-500 text-sm cursor-pointer"
             >
-              <option value="latest" className="bg-slate-900 text-slate-200">Latest Projects (Default)</option>
-              <option value="oldest" className="bg-slate-900 text-slate-200">Oldest Projects</option>
-              <option value="az" className="bg-slate-900 text-slate-200">Name (A → Z)</option>
-              <option value="za" className="bg-slate-900 text-slate-200">Name (Z → A)</option>
+              <option value="latest">Latest Projects (Default)</option>
+              <option value="oldest">Oldest Projects</option>
+              <option value="az">Name (A → Z)</option>
+              <option value="za">Name (Z → A)</option>
             </select>
           </div>
         </div>
@@ -183,10 +183,10 @@ export default function GalleryGrid() {
           <button
             key={cat.value}
             onClick={() => setSelectedCategory(cat.value)}
-            className={`px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all duration-200 ${
+            className={`px-4 py-2 rounded-full text-xs font-semibold transition-all duration-200 ${
               selectedCategory === cat.value
-                ? 'bg-purple-600 text-white shadow-lg shadow-purple-600/30'
-                : 'bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white border border-white/5'
+                ? 'bg-blue-600 text-white shadow-md shadow-blue-600/20'
+                : 'bg-white hover:bg-slate-100 text-slate-600 border border-slate-200'
             }`}
           >
             {cat.label}
@@ -202,17 +202,17 @@ export default function GalleryGrid() {
           ))}
         </div>
       ) : (
-        <div className="glass-card rounded-3xl p-12 text-center max-w-lg mx-auto">
-          <div className="w-16 h-16 rounded-full bg-purple-500/10 border border-purple-500/25 flex items-center justify-center text-purple-400 mx-auto mb-4 text-2xl">
+        <div className="bg-white border border-slate-200 rounded-3xl p-12 text-center max-w-lg mx-auto shadow-sm">
+          <div className="w-16 h-16 rounded-full bg-blue-50 border border-blue-200 flex items-center justify-center text-blue-600 mx-auto mb-4 text-2xl">
             <i className="ri-search-eye-line"></i>
           </div>
-          <h3 className="text-xl font-bold text-white mb-2 font-display">No matching experiments found</h3>
-          <p className="text-slate-400 text-sm mb-6">
+          <h3 className="text-xl font-bold text-slate-900 mb-2 font-display">No matching experiments found</h3>
+          <p className="text-slate-500 text-sm mb-6">
             Try adjusting your search query or clear your category filters to view all works.
           </p>
           <button
             onClick={resetFilters}
-            className="px-6 py-3 rounded-xl bg-purple-600 hover:bg-purple-700 text-white text-sm font-semibold transition"
+            className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold transition shadow-md shadow-blue-600/20"
           >
             Reset Filters
           </button>

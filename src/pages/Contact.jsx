@@ -65,7 +65,7 @@ export default function Contact() {
   const handleChange = (e) => {
     setFormData({
       ...formData,
-      [e.target.id]: e.target.value,
+      [e.target.name]: e.target.value,
     });
   };
 
@@ -73,22 +73,13 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate submission delay
+    // Simulate reliable dispatch
     setTimeout(() => {
       setIsSubmitting(false);
       setShowSuccess(true);
-      setFormData({
-        name: '',
-        email: '',
-        subject: '',
-        message: '',
-      });
-
-      // Auto-hide success message after 5 seconds
-      setTimeout(() => {
-        setShowSuccess(false);
-      }, 5000);
-    }, 1500);
+      setFormData({ name: '', email: '', subject: '', message: '' });
+      setTimeout(() => setShowSuccess(false), 6000);
+    }, 800);
   };
 
   return (
@@ -103,234 +94,227 @@ export default function Contact() {
 
       <main>
         {/* Header Section */}
-        <header className="relative pt-36 pb-16 overflow-hidden radial-glow-cyan text-center">
+        <header className="relative pt-36 pb-16 overflow-hidden bg-gradient-to-b from-blue-50/50 via-white to-white text-center">
           <div className="container mx-auto px-6 relative z-10 animate-fade-in-up">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-6 font-display">
-              Get In <span className="text-gradient-purple-cyan">Touch</span>
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-semibold mb-6 uppercase tracking-wider">
+              <i className="ri-mail-send-line text-blue-600"></i> Direct Inquiry & Support Channel
+            </div>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-6 font-display text-slate-900">
+              Get in <span className="text-blue-600">Touch</span>
             </h1>
-            <p className="max-w-2xl mx-auto text-lg text-slate-400 leading-relaxed mb-8">
-              Connect with <strong className="text-white">Muhammad Daniyal (ItxMDK)</strong> for <strong className="text-purple-300">Zyphuel</strong> on-demand fuel logistics, custom web & 3D software engineering, or enterprise business collaborations.
+            <p className="max-w-2xl mx-auto text-lg text-slate-600 leading-relaxed mb-8">
+              Discuss enterprise contracts, custom full-stack web applications, or connect regarding <strong className="text-slate-900 font-semibold">Zyphuel</strong> mobile fuel infrastructure.
             </p>
-            <div className="w-24 h-1 bg-purple-500 mx-auto rounded-full"></div>
+            <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
           </div>
         </header>
 
-        {/* Contact Content Section */}
+        {/* Contact Form & Studio Details */}
         <section className="container mx-auto py-16 px-6 max-w-6xl">
-          <div className="flex flex-col lg:flex-row gap-12 items-start">
-            {/* Left Info Panel */}
-            <div className="w-full lg:w-2/5 flex flex-col gap-8">
-              <div className="relative w-full max-w-md mx-auto hidden lg:block">
-                <div className="absolute -inset-4 bg-purple-500/10 rounded-full blur-xl opacity-60"></div>
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/3594/3594445.png"
-                  alt="Creative Contact illustration"
-                  className="relative w-48 h-48 mx-auto object-contain animate-pulse"
-                  decoding="async"
-                  loading="lazy"
-                />
-              </div>
-
-              <div className="glass-panel rounded-3xl p-8 border border-white/5 w-full">
-                <h3 className="text-xl font-bold mb-6 text-purple-300 font-display">Contact Information</h3>
-
-                <div className="space-y-6">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+            
+            {/* Direct Studio & Founder Info Column */}
+            <div className="lg:col-span-5 space-y-8">
+              <div className="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm">
+                <h2 className="text-2xl font-bold mb-6 font-display text-slate-900">
+                  Studio Headquarters
+                </h2>
+                <div className="space-y-6 text-sm text-slate-700">
                   <div className="flex items-start gap-4">
-                    <div className="bg-purple-500/10 border border-purple-500/25 p-3 rounded-xl text-purple-400">
-                      <i className="ri-map-pin-line text-lg"></i>
+                    <div className="w-10 h-10 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-center text-blue-600 flex-shrink-0">
+                      <i className="ri-map-pin-2-fill text-xl"></i>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-slate-200 text-sm">Studio & HQ Location</h4>
-                      <p className="text-slate-400 text-xs mt-1">Main Boulevard, Gulberg III, Lahore, Pakistan (54600)</p>
+                      <h3 className="font-bold text-slate-900">Physical Studio Location</h3>
+                      <p className="text-slate-600 text-xs mt-1 leading-relaxed">
+                        Lahore, Punjab 54400, Pakistan
+                      </p>
                     </div>
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="bg-purple-500/10 border border-purple-500/25 p-3 rounded-xl text-purple-400">
-                      <i className="ri-phone-line text-lg"></i>
+                    <div className="w-10 h-10 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-center text-blue-600 flex-shrink-0">
+                      <i className="ri-phone-fill text-xl"></i>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-slate-200 text-sm">Phone / WhatsApp</h4>
-                      <a href={`tel:${siteMetadata.phone}`} className="text-slate-400 hover:text-purple-400 text-xs mt-1 block">
-                        (+92) 323-0112464
+                      <h3 className="font-bold text-slate-900">Direct Phone / WhatsApp</h3>
+                      <a
+                        href={`tel:${siteMetadata.phone}`}
+                        className="text-blue-600 font-medium hover:underline text-xs mt-1 block"
+                      >
+                        +92 323 0112464
                       </a>
                     </div>
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="bg-purple-500/10 border border-purple-500/25 p-3 rounded-xl text-purple-400">
-                      <i className="ri-mail-send-line text-lg"></i>
+                    <div className="w-10 h-10 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-center text-blue-600 flex-shrink-0">
+                      <i className="ri-mail-fill text-xl"></i>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-slate-200 text-sm">Email Address</h4>
-                      <a href={`mailto:${siteMetadata.email}`} className="text-slate-400 hover:text-purple-400 text-xs mt-1 block">
+                      <h3 className="font-bold text-slate-900">Official Direct Email</h3>
+                      <a
+                        href={`mailto:${siteMetadata.email}`}
+                        className="text-blue-600 font-medium hover:underline text-xs mt-1 block truncate"
+                      >
                         {siteMetadata.email}
                       </a>
-                      <p className="text-slate-500 text-[11px] mt-0.5">ItxMDK@proton.me</p>
                     </div>
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="bg-purple-500/10 border border-purple-500/25 p-3 rounded-xl text-cyan-400">
-                      <i className="ri-truck-line text-lg"></i>
+                    <div className="w-10 h-10 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-center text-blue-600 flex-shrink-0">
+                      <i className="ri-time-fill text-xl"></i>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-slate-200 text-sm">Zyphuel Fuel Dispatch</h4>
-                      <p className="text-slate-400 text-xs mt-1">24/7 Doorstep Delivery across Lahore & Punjab</p>
+                      <h3 className="font-bold text-slate-900">Hours of Operation</h3>
+                      <p className="text-slate-600 text-xs mt-1">24/7 Global Client Support</p>
                     </div>
                   </div>
+                </div>
+              </div>
+
+              {/* Developer Connect Card */}
+              <div className="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm">
+                <h3 className="text-lg font-bold mb-3 font-display text-slate-900">Connect with Daniyal</h3>
+                <p className="text-xs text-slate-600 mb-6 leading-relaxed">
+                  Engage on GitHub, explore verified professional records on LinkedIn, or inspect our official Google Maps profile.
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  <a
+                    href={siteMetadata.socials.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 rounded-xl bg-slate-50 border border-slate-200 hover:border-blue-500 hover:text-blue-600 text-xs font-semibold flex items-center gap-2 transition"
+                  >
+                    <i className="ri-github-fill"></i> GitHub
+                  </a>
+                  <a
+                    href={siteMetadata.socials.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 rounded-xl bg-slate-50 border border-slate-200 hover:border-blue-500 hover:text-blue-600 text-xs font-semibold flex items-center gap-2 transition"
+                  >
+                    <i className="ri-linkedin-fill"></i> LinkedIn
+                  </a>
+                  <a
+                    href={siteMetadata.socials.gmb}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 rounded-xl bg-slate-50 border border-slate-200 hover:border-blue-500 hover:text-blue-600 text-xs font-semibold flex items-center gap-2 transition"
+                  >
+                    <i className="ri-google-fill"></i> Google Profile
+                  </a>
                 </div>
               </div>
             </div>
 
-            {/* Right Form Panel */}
-            <div className="w-full lg:w-3/5 glass-panel rounded-3xl border border-white/5 p-8 md:p-10 shadow-2xl">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#f8fafc] mb-2 font-display">Send A Message</h2>
-              <p className="text-slate-400 mb-8 text-sm">
-                Fill out the form details below, and our team will get back to you within 24 hours.
-              </p>
+            {/* Form Column */}
+            <div className="lg:col-span-7">
+              <div className="bg-white rounded-3xl p-8 md:p-12 border border-slate-200 shadow-md">
+                <h2 className="text-2xl font-bold mb-2 font-display text-slate-900">
+                  Send a Direct Message
+                </h2>
+                <p className="text-slate-500 text-xs mb-8">
+                  Fill out the form below. We typically respond in under 2 hours.
+                </p>
 
-              <form onSubmit={handleSubmit} className="space-y-6" autoComplete="off">
-                <div className="relative">
-                  <label htmlFor="name" className="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">
-                    Full Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 py-3.5 rounded-xl glass-input placeholder-slate-500 text-sm"
-                    placeholder="e.g. John Doe"
-                  />
-                </div>
-
-                <div className="relative">
-                  <label htmlFor="email" className="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">
-                    Email Address
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 py-3.5 rounded-xl glass-input placeholder-slate-500 text-sm"
-                    placeholder="e.g. john@example.com"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="subject" className="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">
-                    Project Subject
-                  </label>
-                  <select
-                    id="subject"
-                    value={formData.subject}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 py-3.5 rounded-xl glass-input cursor-pointer bg-[#0f172a] text-slate-200 text-sm"
-                  >
-                    <option value="" disabled>Select a subject</option>
-                    <option value="zyphuel_fuel" className="bg-slate-900">Zyphuel Mobile Fuel & Fleet Inquiry</option>
-                    <option value="web_dev" className="bg-slate-900">Full-Stack Web / App Development</option>
-                    <option value="ui_ux_3d" className="bg-slate-900">UI/UX & 3D Interactive Web Design</option>
-                    <option value="collaboration" className="bg-slate-900">Business Collaboration / Partnership</option>
-                    <option value="seo_geo" className="bg-slate-900">SEO / AEO / GEO Strategy Inquiry</option>
-                    <option value="other" className="bg-slate-900">Other Options</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">
-                    Your Message
-                  </label>
-                  <textarea
-                    id="message"
-                    rows="5"
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 py-3.5 rounded-xl glass-input placeholder-slate-500 text-sm resize-none"
-                    placeholder="How can we help? Describe your project requirements, fuel delivery fleet needs, or technical specifications..."
-                  ></textarea>
-                </div>
-
-                <button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="w-full py-4 px-6 bg-purple-600 hover:bg-purple-700 disabled:opacity-50 text-white rounded-xl accent-glow-btn font-semibold flex items-center justify-center gap-2 transition duration-300"
-                >
-                  {isSubmitting ? (
-                    <>
-                      <span>Sending Message...</span>
-                      <svg className="w-5 h-5 text-white animate-spin" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                      </svg>
-                    </>
-                  ) : (
-                    <span>Send Inquiry Message</span>
-                  )}
-                </button>
-              </form>
-
-              {/* Success feedback alert */}
-              {showSuccess && (
-                <div className="mt-6 p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 animate-fade-in-up">
-                  <div className="flex items-center gap-2">
-                    <i className="ri-checkbox-circle-line text-lg text-emerald-400"></i>
-                    <span className="text-sm font-medium">
-                      Thank you! Your inquiry has been received. Our team will contact you shortly.
-                    </span>
+                {showSuccess && (
+                  <div className="mb-6 p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs flex items-center gap-3 animate-fade-in-up">
+                    <i className="ri-checkbox-circle-fill text-lg text-emerald-600"></i>
+                    <span>Thank you! Your message has been received. We will respond promptly.</span>
                   </div>
-                </div>
-              )}
+                )}
 
-              {/* Social media icons */}
-              <div className="mt-12 pt-8 border-t border-white/5">
-                <h3 className="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-6 text-center">
-                  Follow Us Globally
-                </h3>
-                <div className="flex justify-center space-x-6">
-                  <a
-                    href="https://instagram.com/MDKGallery"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Instagram"
-                    className="bg-white/5 border border-white/10 hover:bg-purple-500/10 hover:border-purple-400 p-3 rounded-full transition duration-300 text-slate-400 hover:text-purple-400 text-xl"
+                <form onSubmit={handleSubmit} className="space-y-6">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                      <label htmlFor="contact-name" className="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">
+                        Your Full Name
+                      </label>
+                      <input
+                        type="text"
+                        id="contact-name"
+                        name="name"
+                        required
+                        value={formData.name}
+                        onChange={handleChange}
+                        placeholder="John Doe"
+                        className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white text-slate-900 placeholder-slate-400 focus:ring-2 focus:ring-blue-500 text-sm"
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor="contact-email" className="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">
+                        Email Address
+                      </label>
+                      <input
+                        type="email"
+                        id="contact-email"
+                        name="email"
+                        required
+                        value={formData.email}
+                        onChange={handleChange}
+                        placeholder="john@example.com"
+                        className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white text-slate-900 placeholder-slate-400 focus:ring-2 focus:ring-blue-500 text-sm"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label htmlFor="contact-subject" className="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">
+                      Inquiry Category
+                    </label>
+                    <select
+                      id="contact-subject"
+                      name="subject"
+                      required
+                      value={formData.subject}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white text-slate-700 focus:ring-2 focus:ring-blue-500 text-sm cursor-pointer"
+                    >
+                      <option value="">Select a subject...</option>
+                      <option value="custom-web-app">Custom Web Application Development</option>
+                      <option value="zyphuel-inquiry">Zyphuel Mobile Fuel Logistics</option>
+                      <option value="3d-ui-ux">Interactive 3D UI/UX & WebGL</option>
+                      <option value="seo-geo-strategy">SEO / AEO / GEO Search Engine Optimization</option>
+                      <option value="general-partnership">General Inquiries & Collaboration</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label htmlFor="contact-message" className="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-2">
+                      Project Details / Message
+                    </label>
+                    <textarea
+                      id="contact-message"
+                      name="message"
+                      rows="5"
+                      required
+                      value={formData.message}
+                      onChange={handleChange}
+                      placeholder="Please outline your project scope, requirements, timeline, and goals..."
+                      className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white text-slate-900 placeholder-slate-400 focus:ring-2 focus:ring-blue-500 text-sm"
+                    ></textarea>
+                  </div>
+
+                  <button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="w-full py-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm transition accent-glow-btn flex items-center justify-center gap-2 shadow-md shadow-blue-600/25"
                   >
-                    <i className="ri-instagram-line"></i>
-                  </a>
-                  <a
-                    href="https://github.com/MuhammadDaniyalMDK"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="GitHub"
-                    className="bg-white/5 border border-white/10 hover:bg-purple-500/10 hover:border-purple-400 p-3 rounded-full transition duration-300 text-slate-400 hover:text-purple-400 text-xl"
-                  >
-                    <i className="ri-github-fill"></i>
-                  </a>
-                  <a
-                    href="https://twitter.com/MuhammadDaniyalMDK"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Twitter"
-                    className="bg-white/5 border border-white/10 hover:bg-purple-500/10 hover:border-purple-400 p-3 rounded-full transition duration-300 text-slate-400 hover:text-purple-400 text-xl"
-                  >
-                    <i className="ri-twitter-x-line"></i>
-                  </a>
-                  <a
-                    href="https://linkedin.com/in/MuhammadDaniyalMDK"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="LinkedIn"
-                    className="bg-white/5 border border-white/10 hover:bg-purple-500/10 hover:border-purple-400 p-3 rounded-full transition duration-300 text-slate-400 hover:text-purple-400 text-xl"
-                  >
-                    <i className="ri-linkedin-line"></i>
-                  </a>
-                </div>
+                    {isSubmitting ? (
+                      <>
+                        <i className="ri-loader-4-line animate-spin text-lg"></i>
+                        <span>Transmitting Inquiry...</span>
+                      </>
+                    ) : (
+                      <>
+                        <i className="ri-send-plane-fill text-lg"></i>
+                        <span>Send Message</span>
+                      </>
+                    )}
+                  </button>
+                </form>
               </div>
             </div>
           </div>

@@ -5,7 +5,7 @@ import ScrollToTop from '../common/ScrollToTop';
 
 export default function Layout({ children }) {
   return (
-    <div className="min-h-screen bg-[#090d16] text-[#f8fafc] radial-glow-violet bg-no-repeat bg-cover flex flex-col justify-between selection:bg-purple-500 selection:text-white">
+    <div className="min-h-screen bg-white text-slate-900 radial-glow-cyan bg-no-repeat bg-cover flex flex-col justify-between selection:bg-blue-600 selection:text-white">
       <ScrollToTop />
       
       {/* Hidden Code-Level SEO Engine & Indexing Signals for Crawlers & Search Engines */}

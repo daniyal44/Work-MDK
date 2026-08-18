@@ -7,11 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        bgDark: '#090d16',
-        bgCard: 'rgba(17, 24, 39, 0.55)',
-        accentPurple: '#8b5cf6',
-        accentCyan: '#06b6d4',
-        accentEmerald: '#10b981',
+        bgLight: '#ffffff',
+        bgSubtle: '#f8fafc',
+        cardLight: '#ffffff',
+        accentPrimary: '#2563eb',
+        accentHover: '#1d4ed8',
+        textDark: '#0f172a',
+        textMuted: '#64748b',
+        borderLight: '#e2e8f0',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
