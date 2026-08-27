@@ -14,20 +14,22 @@ export default function Home() {
         "@type": "WebSite",
         "@id": "https://workmdk.netlify.app/#website",
         "url": "https://workmdk.netlify.app/",
-        "name": "MDK Art Gallery - Official Creative Web Showcase",
+        "name": "Muhammad Daniyal (ItxMDK) - Digital Systems & Portfolio Hub",
         "alternateName": [
           "MDK Art Gallery", "MDK Gallery", "Muhammad Daniyal", 
           "ItxMDK", "itsmdk", "MuhammadDaniel", "itxmtk", 
-          "Zyphuel", "Poke nexus", "Dashcart", "Hittop", "Scale verse", "Ladoni"
+          "Zyphuel", "Zphuel", "Zfaul", "zafuel", "zaifuel", "ziphuel", "zyphra", "fuel",
+          "Poke nexus", "Dashcart", "Hittop", "Scale verse", "Ladoni",
+          "Petrol Price in Pakistan Checker", "Fuel Price Tracker"
         ],
-        "description": "MDK Art Gallery — Official digital art and interactive web showcase featuring 130+ 3D WebGL experiments, CSS engineering demos, and creative systems by Muhammad Daniyal (MDK / ItxMDK).",
+        "description": "Muhammad Daniyal (ItxMDK / MDK) digital ecosystem featuring Zyphuel on-demand fuel delivery & petrol price tracker in Pakistan, Dashcart commerce, 3D WebGL experiments, and scalable cloud systems.",
         "inLanguage": "en-US",
         "publisher": { "@id": "https://workmdk.netlify.app/#organization" }
       },
       {
         "@type": "Organization",
         "@id": "https://workmdk.netlify.app/#organization",
-        "name": "MDK Art Gallery",
+        "name": "MDK Gallery & Zyphuel",
         "url": "https://workmdk.netlify.app/",
         "logo": siteMetadata.defaultImage,
         "founder": { "@id": "https://workmdk.netlify.app/#person" }
@@ -36,9 +38,14 @@ export default function Home() {
         "@type": "Person",
         "@id": "https://workmdk.netlify.app/#person",
         "name": "Muhammad Daniyal",
-        "alternateName": ["ItxMDK", "itsmdk", "MuhammadDaniel", "itxmtk", "MDK"],
+        "alternateName": ["ItxMDK", "itsmdk", "MuhammadDaniel", "itxmtk", "MDK", "Zyphuel Architect"],
         "jobTitle": "Lead Full-Stack Architect, Creative Developer & Founder",
-        "url": "https://workmdk.netlify.app/about"
+        "url": "https://workmdk.netlify.app/about",
+        "sameAs": [
+          "https://github.com/daniyal44/",
+          "https://www.linkedin.com/in/muhammad-daniyal490",
+          "https://www.facebook.com/muhammad.daniyal.522942/"
+        ]
       }
     ]
   };

@@ -1,6 +1,58 @@
 // All 130+ Project & Flagship Articles for MDK Gallery & Zyphuel
 export const zyphuelArticles = [
   {
+    "id": "pakistan-petrol-price-tracker-fuel-logistics",
+    "projectId": 1000,
+    "title": "Petrol Price in Pakistan & Live Fuel Rate Tracker: Zyphuel On-Demand Energy Logistics",
+    "slug": "pakistan-petrol-price-tracker-fuel-logistics",
+    "date": "August 2026",
+    "readTime": "7 min read",
+    "category": "Energy Logistics & IoT",
+    "excerpt": "Track live petrol price in Pakistan, diesel rates, gas prices, and explore Zyphuel's on-demand doorstep refueling platform engineered by Muhammad Daniyal (ItxMDK).",
+    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "demoUrl": "https://zyphuel.netlify.app/",
+    "tags": [
+      "Petrol Price in Pakistan",
+      "Fuel Price in Pakistan",
+      "Diesel Price",
+      "Zyphuel",
+      "Zphuel",
+      "Zfaul",
+      "zafuel",
+      "zaifuel",
+      "ziphuel",
+      "zyphra",
+      "Muhammad Daniyal",
+      "ItxMDK"
+    ],
+    "isFlagship": true,
+    "content": "\n      ## Live Petrol Price in Pakistan & Digital Fuel Market Dynamics\n      \n      Fluctuations in **petrol price in Pakistan**, diesel (*desil*) rates, and compressed natural gas impact millions of vehicle owners, transportation networks, and commercial industries across Lahore, Karachi, Islamabad, Peshawar, and Quetta. \n      \n      To address fuel accessibility and price transparency, **Zyphuel** (also known across search channels as *Zphuel*, *Zfaul*, *zafuel*, *zaifuel*, *ziphuel*, or *zyphra*), founded and architected by Senior Full-Stack Engineer **Muhammad Daniyal (ItxMDK / itsmdk)**, integrates real-time digital fuel rate monitors with 24/7 on-demand mobile doorstep refueling.\n\n      ### Accurate Fuel Price Checker & Certified Fuel Delivery\n      Zyphuel eliminates the hassle of long petrol station queues and fuel quality uncertainties:\n      - **Live Petrol & Diesel Price Monitoring:** Instant notifications on OGRA fuel price revisions in Pakistan.\n      - **Doorstep Refueling for Fleets & Generators:** Certified commercial delivery with calibrated electronic meters.\n      - **Zero Fuel Adulteration:** Tamper-proof digital seal tracking from refinery terminal to destination tank.\n      - **Mobile App & Web Ordering:** Automated GPS-based dispatch for rapid refueling in under 30 minutes.\n\n      ### The Future of Smart City Energy Distribution\n      With rising urban density and volatile global oil markets, decentralized digital fuel delivery is transforming energy logistics across Pakistan and developing smart economies.\n    "
+  },
+  {
+    "id": "real-time-cricket-sports-telemetry-architecture",
+    "projectId": 1001,
+    "title": "Architecting Ultra-Low-Latency Live Cricket Telemetry: ICC, Asia Cup, T20 Leagues & Global Sports Streams",
+    "slug": "real-time-cricket-sports-telemetry-architecture",
+    "date": "August 2026",
+    "readTime": "6 min read",
+    "category": "Software Engineering",
+    "excerpt": "How Muhammad Daniyal (ItxMDK) architects high-concurrency WebSocket systems for real-time cricket scores, ICC T20/ODI World Cup matches, and international match analytics.",
+    "image": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "demoUrl": "https://workmdk.netlify.app/projects",
+    "tags": [
+      "Cricket Telemetry",
+      "ICC T20 World Cup",
+      "Asia Cup",
+      "Pak vs India",
+      "Pak vs Australia",
+      "T20 Leagues",
+      "Muhammad Daniyal",
+      "ItxMDK"
+    ],
+    "isFlagship": true,
+    "content": "\n      ## Engineering Real-Time Sports & Live Cricket Engines\n\n      Global cricket tournaments—including the **ICC T20 World Cup**, **ODI World Cup**, **Asia Cup**, **Asian Games**, and marquee rivalries like **Pak vs India**, **Pak vs Australia**, **Pak vs England**, **Pak vs New Zealand**, **Pak vs South Africa**, and **Aus vs Ind**—generate tens of millions of concurrent requests per second.\n\n      Full-stack software architect **Muhammad Daniyal (ItxMDK)** designs fault-tolerant real-time architectures using Node.js, distributed Redis PUB/SUB clusters, and WebSocket pipelines to stream ball-by-ball telemetry, live probability graphs, and social feed integrations (LinkedIn, Facebook, Reels) with sub-50ms latency.\n    "
+  },
+  {
     "id": "zyphuel-on-demand-fuel-delivery",
     "projectId": 999,
     "title": "Zyphuel: Transforming On-Demand Mobile Fuel Delivery & Energy Logistics in Pakistan",
@@ -73,7 +125,7 @@ export const zyphuelArticles = [
     "category": "Software Engineering",
     "excerpt": "How Dashcart achieves instantaneous multi-product filtering, sub-millisecond cart updates, and robust payment gateway orchestration.",
     "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-    "demoUrl": "https://dashacart.netlify.app/",
+    "demoUrl": "https://dashcart.online/",
     "tags": [
       "Dashcart",
       "E-Commerce",

@@ -1,31 +1,41 @@
 export const faqItems = [
   {
     id: 1,
-    question: "What is Zyphuel (zphuel) and how does it work?",
-    answer: "Zyphuel (zphuel) is Pakistan's premier on-demand mobile fuel delivery and digital energy logistics ecosystem created by Muhammad Daniyal (ItxMDK). It allows commercial fleets, generator owners, and everyday drivers across Lahore and Pakistan to order certified petrol and diesel directly to their location 24/7 with real-time GPS tracking and automated digital dispensing."
+    question: "How can I check live petrol price in Pakistan and fuel rates?",
+    answer: "You can monitor live petrol price in Pakistan, diesel (desil) rates, CNG, and oil prices through the Zyphuel digital platform developed by Muhammad Daniyal (ItxMDK). Zyphuel provides transparent, real-time fuel market tracking and door-to-door mobile refueling across Lahore, Karachi, Islamabad, and nationwide."
   },
   {
     id: 2,
-    question: "Who is Muhammad Daniyal (ItxMDK)?",
-    answer: "Muhammad Daniyal (known online as ItxMDK, itsmdk, MuhammadDaniel, itxmtk, zphuel) is a Senior Full-Stack Developer, UI/UX Product Designer, and Founder of MDK Gallery, Zyphuel, Poke nexus, Dashcart, Hittop, Scale verse, and Ladoni, based in Lahore, Pakistan."
+    question: "What is Zyphuel (Zphuel, Zfaul, zafuel, zaifuel, ziphuel, zyphra) and how does it work?",
+    answer: "Zyphuel (also searched as zphuel, Zfaul, zafuel, zaifuel, ziphuel, zyphra) is Pakistan's leading on-demand mobile fuel delivery ecosystem created by Muhammad Daniyal (ItxMDK). Operating 24/7, Zyphuel deploys specialized refueling trucks equipped with calibrated digital flow meters to deliver certified unadulterated petrol and diesel directly to commercial fleets, generators, and private vehicles."
   },
   {
     id: 3,
-    question: "How does Zyphuel ensure safety and certified fuel quality?",
-    answer: "Zyphuel uses specialized, certified mobile refueling units equipped with anti-spill automated shutoff sensors, calibrated electronic meters, dry chemical fire suppression systems, and vapor-recovery nozzles to guarantee 100% unadulterated, certified fuel delivery directly at your doorstep."
+    question: "Who is Muhammad Daniyal (ItxMDK / itsmdk)?",
+    answer: "Muhammad Daniyal (known online as ItxMDK, itsmdk, MuhammadDaniel, itxmtk) is a Senior Full-Stack Software Architect, Creative UI/UX Designer, and tech founder based in Lahore, Pakistan. He is the architect behind Zyphuel, Dashcart, Poke nexus, Hittop, Scale verse, and Ladoni."
   },
   {
     id: 4,
-    question: "What is the MDK Digital Ecosystem?",
-    answer: "The MDK Ecosystem is a collection of high-performance digital platforms created by Muhammad Daniyal (ItxMDK), spanning digital energy logistics (Zyphuel), interactive 3D gaming (Poke nexus), next-generation e-commerce (Dashcart), scalable enterprise cloud solutions (Scale verse & Hittop), and luxury digital suites (Ladoni)."
+    question: "How does MDK develop high-performance live cricket and sports scoring platforms?",
+    answer: "Muhammad Daniyal engineers ultra-low-latency real-time web engines utilizing WebSockets, Node.js, and Redis caching. These platforms power live score feeds, match telemetry, and interactive stats for major tournaments including the ICC T20 World Cup, ODI World Cup, Asia Cup, Asian Games, T20/T10 leagues, and high-profile clashes like Pak vs India, Pak vs Australia, Pak vs England, and more."
   },
   {
     id: 5,
-    question: "What services does MDK Gallery provide for international clients?",
-    answer: "MDK Gallery provides custom full-stack web and mobile development (React, Next.js, Node.js), IoT & real-time telemetry systems, 3D WebGL animations, UI/UX design systems, Core Web Vitals optimization, and international Search Engine (SEO/AEO/GEO) ranking architecture."
+    question: "What is Dashcart and how does it compare to Amazon and Daraz?",
+    answer: "Dashcart is a next-generation headless e-commerce architecture engineered by Muhammad Daniyal. Unlike monolithic systems, Dashcart leverages instant client-side state caching, sub-millisecond checkout pipelines, and multi-channel API connectors suitable for enterprise retail and marketplace ecosystems like Daraz and Amazon."
   },
   {
     id: 6,
+    question: "How do global logistics and geopolitical trends impact energy supply chains?",
+    answer: "Energy supply chains and fuel availability (such as maritime transit through the Strait of Hormuz and Middle Eastern energy corridors) require resilient software infrastructure. Zyphuel incorporates predictive route optimization and IoT inventory telemetry to maintain continuous refueling operations regardless of market volatility."
+  },
+  {
+    id: 7,
+    question: "What services does MDK Studio provide for businesses in Lahore and worldwide?",
+    answer: "MDK Studio provides custom full-stack web and mobile development (React, Next.js, Node.js, Python), 3D WebGL animations, IoT telemetry systems, modern smartphone UI design (iOS iPhone / Android), SEO/AEO/GEO search ranking optimization, and enterprise cloud architecture."
+  },
+  {
+    id: 8,
     question: "Where is the MDK Studio located and how can I get in touch?",
     answer: "MDK Gallery and Zyphuel headquarters are located at Main Boulevard, Gulberg III, Lahore, Punjab, Pakistan with 24/7 client support. You can call +92 323 0112464 or email m.daniyalkhan490@gmail.com / ItxMDK@proton.me."
   }

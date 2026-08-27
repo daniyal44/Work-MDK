@@ -6,7 +6,7 @@
   <!-- Root Domain URL -->
   <url>
     <loc>https://workmdk.netlify.app/</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://workmdk.netlify.app/"/>
@@ -19,83 +19,83 @@
     <xhtml:link rel="alternate" hreflang="en-PK" href="https://workmdk.netlify.app/"/>
     <image:image>
       <image:loc>https://i.postimg.cc/zDFwVm0R/a-3d-render-of-a-sleek-logo-displaying-t-WRu-g5NXRt6KYp-FGOq-b-Lw-16RSYne-RDW8XD5oo3lm-JA.jpg</image:loc>
-      <image:title>Zyphuel, zphuel, ItxMDK, Poke nexus, Dashcart, Hittop, Scale verse, Ladoni - MDK Gallery</image:title>
-      <image:caption>Official 3D Logo and Emblem for Zyphuel, zphuel, ItxMDK, itxmtk, MuhammadDaniel, itsmdk, Poke nexus, Dashcart, Hittop, Scale verse, Ladoni created by Muhammad Daniyal</image:caption>
+      <image:title>Muhammad Daniyal (ItxMDK) - Zyphuel Fuel Logistics, Petrol Price Tracker &amp; Digital Portfolio</image:title>
+      <image:caption>Official Portfolio of Muhammad Daniyal (ItxMDK / MDK): Zyphuel Mobile Refueling, Dashcart E-Commerce, Poke Nexus 3D, Hittop, Scale Verse, and Ladoni</image:caption>
     </image:image>
   </url>
 
-  <!-- Zyphuel Articles & Technical Insights Page -->
+  <!-- Technical Articles Page -->
   <url>
     <loc>https://workmdk.netlify.app/articles</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://workmdk.netlify.app/articles"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://workmdk.netlify.app/articles"/>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1545454675-3531b543be5d?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80</image:loc>
-      <image:title>Zyphuel: On-Demand Mobile Fuel Delivery &amp; Energy Logistics in Pakistan</image:title>
-      <image:caption>Comprehensive articles and technical insights on Zyphuel mobile refueling platform by Muhammad Daniyal (ItxMDK)</image:caption>
+      <image:title>Petrol Price in Pakistan &amp; Zyphuel Energy Logistics Technical Articles</image:title>
+      <image:caption>Technical articles on live fuel pricing, sports telemetry, ICC World Cup real-time systems, and IoT energy delivery by Muhammad Daniyal (ItxMDK)</image:caption>
     </image:image>
   </url>
 
   <!-- Projects Page -->
   <url>
     <loc>https://workmdk.netlify.app/projects</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://workmdk.netlify.app/projects"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://workmdk.netlify.app/projects"/>
     <image:image>
       <image:loc>https://i.postimg.cc/05bcb8rt/MDK2.png</image:loc>
-      <image:title>Muhammad Daniyal (ItxMDK) Portfolio - Zyphuel &amp; Poke nexus Projects</image:title>
-      <image:caption>Showcase of Zyphuel, zphuel, ItxMDK, itxmtk, MuhammadDaniel, itsmdk, Poke nexus, Dashcart, Hittop, Scale verse, Ladoni Projects</image:caption>
+      <image:title>Muhammad Daniyal (ItxMDK) Portfolio - Projects &amp; Digital Architectures</image:title>
+      <image:caption>Showcase of Zyphuel, Dashcart, Poke Nexus, Hittop, Scale Verse, and 130+ interactive web applications</image:caption>
     </image:image>
   </url>
 
   <!-- Services Page -->
   <url>
     <loc>https://workmdk.netlify.app/services</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://workmdk.netlify.app/services"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://workmdk.netlify.app/services"/>
     <image:image>
       <image:loc>https://i.postimg.cc/zDFwVm0R/a-3d-render-of-a-sleek-logo-displaying-t-WRu-g5NXRt6KYp-FGOq-b-Lw-16RSYne-RDW8XD5oo3lm-JA.jpg</image:loc>
-      <image:title>Services for Zyphuel, Poke nexus, Dashcart, Hittop, Scale verse, Ladoni</image:title>
-      <image:caption>Full-Stack Web Engineering, IoT Telemetry and Platform Services by Muhammad Daniyal (ItxMDK / itsmdk)</image:caption>
+      <image:title>Services: Full-Stack Web Development, IoT Telemetry &amp; E-Commerce Architecture</image:title>
+      <image:caption>Engineering services by Muhammad Daniyal (ItxMDK): Web apps, 3D WebGL, mobile development, and SEO/AEO/GEO optimization</image:caption>
     </image:image>
   </url>
 
   <!-- About Page -->
   <url>
     <loc>https://workmdk.netlify.app/about</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://workmdk.netlify.app/about"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://workmdk.netlify.app/about"/>
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;h=600&amp;q=80</image:loc>
-      <image:title>About Zyphuel &amp; Muhammad Daniyal (ItxMDK / itsmdk)</image:title>
-      <image:caption>Muhammad Daniyal (ItxMDK / itsmdk / zphuel) and Zyphuel, Poke nexus, Dashcart, Hittop, Scale verse, Ladoni Development Team</image:caption>
+      <image:title>About Muhammad Daniyal (ItxMDK) - Lead Architect &amp; Founder</image:title>
+      <image:caption>Background and engineering profile of Muhammad Daniyal (ItxMDK), founder of Zyphuel, Dashcart, and MDK Studio</image:caption>
     </image:image>
   </url>
 
   <!-- Contact Page -->
   <url>
     <loc>https://workmdk.netlify.app/contact</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://workmdk.netlify.app/contact"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://workmdk.netlify.app/contact"/>
     <image:image>
       <image:loc>https://i.postimg.cc/zDFwVm0R/a-3d-render-of-a-sleek-logo-displaying-t-WRu-g5NXRt6KYp-FGOq-b-Lw-16RSYne-RDW8XD5oo3lm-JA.jpg</image:loc>
-      <image:title>Contact Zyphuel &amp; Muhammad Daniyal (ItxMDK / itsmdk)</image:title>
-      <image:caption>Inquire for Zyphuel, zphuel, ItxMDK, Poke nexus, Dashcart, Hittop, Scale verse, Ladoni Development with Muhammad Daniyal</image:caption>
+      <image:title>Contact Muhammad Daniyal (ItxMDK) &amp; Zyphuel</image:title>
+      <image:caption>Inquire for software development, energy telemetry partnerships, or web engineering with Muhammad Daniyal</image:caption>
     </image:image>
   </url>
 

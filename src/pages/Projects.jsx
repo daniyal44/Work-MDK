@@ -181,7 +181,7 @@ export default function Projects() {
                     rel="noopener noreferrer"
                     className="flex-1 text-center py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-semibold transition shadow-sm"
                   >
-                    Live Demo
+                    Link
                   </a>
                   <a
                     href={project.githubUrl}
