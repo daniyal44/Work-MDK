@@ -41,7 +41,7 @@ export default function About() {
         "name": "Muhammad Daniyal",
         "alternateName": ["ItxMDK", "itsmdk", "MuhammadDaniel", "itxmtk", "zphuel", "Zyphuel Lead"],
         "jobTitle": "Lead Full-Stack Developer & Founder",
-        "image": "https://i.postimg.cc/05bcb8rt/MDK2.png",
+        "image": "/images/daniyal.jpeg",
         "url": "https://workmdk.netlify.app/about",
         "worksFor": {
           "@type": "Organization",

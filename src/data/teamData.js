@@ -4,7 +4,7 @@ export const teamMembers = [
     name: "Muhammad Daniyal (MDK)",
     role: "Founder & Principal Full-Stack Architect",
     roleColor: "text-purple-400",
-    image: "https://i.postimg.cc/05bcb8rt/MDK2.png",
+    image: "/images/daniyal.jpeg",
     bio: "Senior Full-Stack Engineer and Product Designer with 15+ years of experience. Creator of Zyphuel on-demand fuel logistics, Poke Nexus 3D hub, and 130+ interactive web architectures."
   },
   {
