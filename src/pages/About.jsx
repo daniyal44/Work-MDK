@@ -250,25 +250,28 @@ export default function About() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {teamMembers.map((member) => (
-              <article key={member.id} className="bg-white rounded-3xl overflow-hidden group border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-500 transition-all duration-300">
-                <div className="image-zoom-container h-64 bg-slate-50 border-b border-slate-100">
+              <article key={member.id} className="bg-white rounded-3xl overflow-hidden group border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-500 transition-all duration-300 flex flex-col">
+                <div className="relative aspect-[4/5] w-full overflow-hidden bg-slate-100 border-b border-slate-100">
                   <img
                     src={member.image}
                     alt={`${member.name} photo - ${member.role} at MDK Gallery`}
                     title={`${member.name} - ${member.role}`}
                     width="600"
-                    height="400"
-                    className="w-full h-full object-cover"
+                    height="750"
+                    className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                     decoding="async"
                     loading="lazy"
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
-                <div className="p-6 text-center">
-                  <h3 className="text-lg font-bold font-display text-slate-900">{member.name}</h3>
-                  <p className="text-xs text-blue-600 font-semibold uppercase tracking-wider mt-1 mb-4">
-                    {member.role}
-                  </p>
-                  <p className="text-slate-600 text-sm leading-relaxed">{member.bio}</p>
+                <div className="p-6 text-center flex-1 flex flex-col justify-between">
+                  <div>
+                    <h3 className="text-lg font-bold font-display text-slate-900">{member.name}</h3>
+                    <p className="text-xs text-blue-600 font-semibold uppercase tracking-wider mt-1 mb-3">
+                      {member.role}
+                    </p>
+                    <p className="text-slate-600 text-sm leading-relaxed">{member.bio}</p>
+                  </div>
                 </div>
               </article>
             ))}
