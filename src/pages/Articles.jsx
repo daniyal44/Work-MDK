@@ -227,21 +227,25 @@ export default function Articles() {
                 className="bg-white rounded-3xl overflow-hidden flex flex-col justify-between group border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-500 transition-all duration-300"
               >
                 <div>
-                  <div className="image-zoom-container h-48 bg-slate-50 border-b border-slate-100 relative">
+                  <div className="relative h-52 bg-slate-900 border-b border-slate-100 overflow-hidden flex items-center justify-center">
                     <img
                       src={article.image}
                       alt={article.title}
-                      className="w-full h-full object-cover"
+                      className={`w-full h-full ${
+                        article.image?.toLowerCase().includes('logo')
+                          ? 'object-contain p-4 bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 transition-transform duration-500 group-hover:scale-105'
+                          : 'object-cover object-center transition-transform duration-500 group-hover:scale-105'
+                      }`}
                       loading="lazy"
                     />
-                    <div className="absolute top-3 left-3">
+                    <div className="absolute top-3 left-3 z-10">
                       <span className="px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-white/95 backdrop-blur border border-slate-200 text-blue-700 shadow-sm">
                         {article.category}
                       </span>
                     </div>
                     {article.isFlagship && (
-                      <div className="absolute top-3 right-3">
-                        <span className="px-2 py-0.5 rounded-full text-[9px] font-extrabold uppercase tracking-wider bg-blue-600 text-white shadow">
+                      <div className="absolute top-3 right-3 z-10">
+                        <span className="px-2.5 py-1 rounded-full text-[10px] font-extrabold uppercase tracking-wider bg-blue-600 text-white shadow">
                           Flagship
                         </span>
                       </div>
@@ -350,11 +354,15 @@ export default function Articles() {
                 {selectedArticle.title}
               </h2>
 
-              <div className="rounded-2xl overflow-hidden mb-8 border border-slate-200 h-64 sm:h-80 bg-slate-50">
+              <div className="rounded-2xl overflow-hidden mb-8 border border-slate-200 h-64 sm:h-80 bg-slate-900 flex items-center justify-center">
                 <img
                   src={selectedArticle.image}
                   alt={selectedArticle.title}
-                  className="w-full h-full object-cover"
+                  className={`w-full h-full ${
+                    selectedArticle.image?.toLowerCase().includes('logo')
+                      ? 'object-contain p-6 bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950'
+                      : 'object-cover object-center'
+                  }`}
                 />
               </div>
 

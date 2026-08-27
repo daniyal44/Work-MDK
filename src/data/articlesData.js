@@ -1,6 +1,133 @@
 // All 130+ Project & Flagship Articles for MDK Gallery & Zyphuel
 export const zyphuelArticles = [
   {
+    "id": "zyphuel-on-demand-fuel-delivery",
+    "projectId": 1006,
+    "title": "Zyphuel: Transforming On-Demand Mobile Fuel Delivery & Energy Logistics in Pakistan",
+    "slug": "zyphuel-on-demand-fuel-delivery",
+    "date": "August 2026",
+    "readTime": "6 min read",
+    "category": "Energy Logistics & IoT",
+    "excerpt": "Discover how Zyphuel is revolutionizing mobile refueling across Lahore, Karachi, and Islamabad with 24/7 doorstep delivery for fleets, generators, and personal vehicles.",
+    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    "demoUrl": "https://zyphuel.netlify.app/",
+    "tags": [
+      "Zyphuel",
+      "Mobile Fuel",
+      "Lahore",
+      "IoT Logistics",
+      "Muhammad Daniyal"
+    ],
+    "isFlagship": true,
+    "content": "\n      ## The Rise of Smart Fuel Logistics in Pakistan\n      \n      In fast-paced metropolitan environments like Lahore, Karachi, and Islamabad, traditional fuel stations face structural challenges ranging from peak-hour traffic bottlenecks to fuel accessibility during emergency power load shedding. **Zyphuel** (also known in search ecosystems as *Zphuel*, *Zfaul*, *zafuel*, *zaifuel*, *ziphuel*, or *zyphra*), architected by Senior Full-Stack Engineer and Product Designer **Muhammad Daniyal (ItxMDK / itsmdk)**, was engineered to revolutionize energy distribution across Pakistan through digital transformation.\n\n      ### Core Capabilities of Zyphuel\n      Operating 24/7, Zyphuel provides certified, unadulterated petrol and diesel directly to:\n      - **Commercial Fleet Depots & Logistics Corridors:** Eliminates off-route diversion hours for trucks, delivery vans, and corporate transport.\n      - **Emergency Power Generator Systems:** Continuous refueling for corporate offices, hospitals, banks, and telecom towers.\n      - **Doorstep Consumer Vehicles:** On-demand doorstep refueling for passenger cars and motorbikes in residential communities.\n      - **Heavy Agricultural & Construction Sites:** Direct-to-equipment delivery for excavators, bulldozers, and harvesters.\n\n      ### IoT Telemetry & Calibrated Smart Dispensing\n      Each certified Zyphuel mobile unit is outfitted with high-precision digital flow meters, anti-spill automated nozzles, and GPS tracking. Customers place orders via web and mobile interfaces with real-time ETA tracking and automated digital invoicing with zero fuel adulteration.\n    "
+  },
+  {
+    "id": "poke-nexus-3d-webgl-engine",
+    "projectId": 1005,
+    "title": "Poke Nexus: Developing Real-Time 3D Shaders, Procedural WebGL & Physics Universe",
+    "slug": "poke-nexus-3d-webgl-engine",
+    "date": "August 2026",
+    "readTime": "6 min read",
+    "category": "3D & WebGL",
+    "excerpt": "Exploring the interactive 3D WebGL graphics pipeline, vertex shader mathematics, and high-performance physics behind the Poke Nexus interactive gaming portal.",
+    "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    "demoUrl": "https://interactive-solar-systems.netlify.app/",
+    "tags": [
+      "Poke Nexus",
+      "WebGL",
+      "Three.js",
+      "3D Shaders",
+      "Muhammad Daniyal"
+    ],
+    "isFlagship": true,
+    "content": "\n      ## High-Performance 3D Gaming in the Browser\n\n      **Poke Nexus**, engineered and designed by **Muhammad Daniyal (ItxMDK)**, is an interactive 3D WebGL gaming portal and procedural celestial engine. Built using Three.js and custom GLSL fragment and vertex shaders, the platform renders rich, hardware-accelerated 3D scenes directly in the browser.\n\n      ### Real-Time Shader Pipelines & Lighting Models\n      By calculating dynamic lighting and material refractions directly on the GPU, Poke Nexus maintains a steady 60+ FPS across both desktop and mobile screens.\n\n      ### Interactive Physics & Camera Controllers\n      Custom quaternion math and spring-physics dampening provide seamless orbital camera controls, enabling users to explore celestial bodies, dynamic mesh animations, and interactive particle fields with cinematic smoothness.\n    "
+  },
+  {
+    "id": "dashcart-modern-ecommerce-architecture",
+    "projectId": 1004,
+    "title": "Dashcart: Engineering High-Concurrency Headless SaaS E-Commerce & Instant Checkout",
+    "slug": "dashcart-modern-ecommerce-architecture",
+    "date": "August 2026",
+    "readTime": "5 min read",
+    "category": "Software Engineering",
+    "excerpt": "How Dashcart achieves instantaneous multi-product filtering, sub-millisecond cart updates, and robust payment gateway orchestration for modern retail.",
+    "image": "https://images.unsplash.com/photo-1556742049-0a67c57750c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    "demoUrl": "https://dashcart.online/",
+    "tags": [
+      "Dashcart",
+      "E-Commerce",
+      "React",
+      "Redux",
+      "Stripe API",
+      "Muhammad Daniyal"
+    ],
+    "isFlagship": true,
+    "content": "\n      ## The Architecture of Ultra-Fast E-Commerce\n\n      **Dashcart**, architected and developed by **Muhammad Daniyal**, is a high-speed SaaS e-commerce platform engineered to overcome the speed limitations of traditional monolithic retail engines like Daraz and WooCommerce.\n\n      ### In-Memory State Sync & Instant Filtering\n      Using optimized Redux state stores and client-side prefix tree indexes, Dashcart allows shoppers to filter thousands of SKU permutations instantaneously without server round-trips or layout shifts.\n\n      ### Secure Checkout & Multi-Channel Inventory Sync\n      Dashcart incorporates resilient checkout pipelines integrated with Stripe, digital wallets, and automated webhook verification to ensure synchronized inventory tracking and zero cart abandonment latency.\n    "
+  },
+  {
+    "id": "hittop-digital-services-portal",
+    "projectId": 1003,
+    "title": "Hittop: Engineering Enterprise Digital Service Portals & Cloud Client Hubs",
+    "slug": "hittop-digital-services-portal",
+    "date": "August 2026",
+    "readTime": "6 min read",
+    "category": "Software Engineering",
+    "excerpt": "A deep dive into Hittop: Architecture of automated client onboarding, digital service orchestration, real-time analytics, and enterprise APIs.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    "demoUrl": "https://workmdk.netlify.app/services",
+    "tags": [
+      "Hittop",
+      "Digital Services",
+      "Cloud Portal",
+      "API Orchestration",
+      "Muhammad Daniyal"
+    ],
+    "isFlagship": true,
+    "content": "\n      ## Centralized Digital Service Management\n\n      **Hittop**, developed by **Muhammad Daniyal (ItxMDK)**, is an enterprise-grade digital service portal designed to unify client service delivery, real-time billing metrics, and project milestone orchestration under a singular high-performance web interface.\n\n      ### Automated Workflow Pipelines\n      Hittop eliminates fragmented communication by providing role-based access control (RBAC), automated SLA tracking, and dynamic service provisioning for enterprise clients.\n\n      ### High-Scale API Architecture\n      Built on Node.js and Express with Redis pub/sub messaging, Hittop provides real-time client notifications, secure document delivery, and frictionless service scaling.\n    "
+  },
+  {
+    "id": "scale-verse-cloud-solutions",
+    "projectId": 1002,
+    "title": "Scale Verse: Architecting Distributed Cloud Infrastructure & High-Scale Microservices",
+    "slug": "scale-verse-cloud-solutions",
+    "date": "August 2026",
+    "readTime": "7 min read",
+    "category": "Cloud Architecture",
+    "excerpt": "How Scale Verse delivers high-availability cloud solutions, multi-region container orchestration, microservices telemetry, and 99.99% uptime.",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    "demoUrl": "https://workmdk.netlify.app/about",
+    "tags": [
+      "Scale Verse",
+      "Cloud Infrastructure",
+      "Microservices",
+      "DevOps",
+      "Muhammad Daniyal"
+    ],
+    "isFlagship": true,
+    "content": "\n      ## Distributed Cloud Engineering & Enterprise Solutions\n\n      **Scale Verse**, founded and architected by **Muhammad Daniyal (ItxMDK)**, is an engineering agency and cloud infrastructure solutions platform. With over 12+ years of software architecture experience, Daniyal built Scale Verse to provide high-concurrency microservices, multi-region container deployments, and resilient database clustering.\n\n      ### Multi-Tier Cloud Architecture\n      Scale Verse implements automated CI/CD pipelines deploying to Netlify Edge and AWS cloud backbones, utilizing Redis caching layers and PostgreSQL/MongoDB clusters to guarantee 99.99% operational uptime.\n\n      ### Enterprise Scale & Performance Optimization\n      From IoT telemetry systems for platforms like Zyphuel to large-scale web apps, Scale Verse optimizes TTFB (Time to First Byte), sub-50ms server responses, and end-to-end security encryption.\n    "
+  },
+  {
+    "id": "ladoni-luxury-web-architecture",
+    "projectId": 1001,
+    "title": "Ladoni: Crafting Luxury Digital Suites, High-End Frontend Aesthetics & Generative UI",
+    "slug": "ladoni-luxury-web-architecture",
+    "date": "August 2026",
+    "readTime": "5 min read",
+    "category": "UI & Interactions",
+    "excerpt": "Exploring the design philosophy and technical precision behind Ladoni: Bespoke digital experiences, fluid typography, and GPU-accelerated motion.",
+    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    "demoUrl": "https://workmdk.netlify.app/projects",
+    "tags": [
+      "Ladoni",
+      "Luxury Web",
+      "Generative UI",
+      "Motion Design",
+      "Muhammad Daniyal"
+    ],
+    "isFlagship": true,
+    "content": "\n      ## Elevating Web Design to Haute Couture\n\n      **Ladoni**, created and designed by **Muhammad Daniyal**, is a custom luxury digital web platform and bespoke design system. It is engineered for high-end brands, luxury portfolios, and creative studios seeking elite digital sophistication.\n\n      ### GPU-Accelerated Kinetic Typography & Micro-Interactions\n      Ladoni leverages hardware-accelerated CSS Matrix3D transforms, fluid typography clamping, and subtle spring-physics damping to create an interface that feels alive, responsive, and tactile.\n\n      ### Performance & Aesthetic Harmony\n      By combining glassmorphic translucency with ultra-lightweight zero-dependency stylesheets, Ladoni achieves a 100/100 Core Web Vitals score while presenting an opulent visual identity.\n    "
+  },
+  {
     "id": "pakistan-petrol-price-tracker-fuel-logistics",
     "projectId": 1000,
     "title": "Petrol Price in Pakistan & Live Fuel Rate Tracker: Zyphuel On-Demand Energy Logistics",
@@ -9,7 +136,7 @@ export const zyphuelArticles = [
     "readTime": "7 min read",
     "category": "Energy Logistics & IoT",
     "excerpt": "Track live petrol price in Pakistan, diesel rates, gas prices, and explore Zyphuel's on-demand doorstep refueling platform engineered by Muhammad Daniyal (ItxMDK).",
-    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "image": "https://images.unsplash.com/photo-1527018606412-a613d327c34a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
     "demoUrl": "https://zyphuel.netlify.app/",
     "tags": [
       "Petrol Price in Pakistan",
@@ -30,14 +157,14 @@ export const zyphuelArticles = [
   },
   {
     "id": "real-time-cricket-sports-telemetry-architecture",
-    "projectId": 1001,
+    "projectId": 999,
     "title": "Architecting Ultra-Low-Latency Live Cricket Telemetry: ICC, Asia Cup, T20 Leagues & Global Sports Streams",
     "slug": "real-time-cricket-sports-telemetry-architecture",
     "date": "August 2026",
     "readTime": "6 min read",
     "category": "Software Engineering",
     "excerpt": "How Muhammad Daniyal (ItxMDK) architects high-concurrency WebSocket systems for real-time cricket scores, ICC T20/ODI World Cup matches, and international match analytics.",
-    "image": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "image": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
     "demoUrl": "https://workmdk.netlify.app/projects",
     "tags": [
       "Cricket Telemetry",
@@ -53,90 +180,6 @@ export const zyphuelArticles = [
     "content": "\n      ## Engineering Real-Time Sports & Live Cricket Engines\n\n      Global cricket tournaments—including the **ICC T20 World Cup**, **ODI World Cup**, **Asia Cup**, **Asian Games**, and marquee rivalries like **Pak vs India**, **Pak vs Australia**, **Pak vs England**, **Pak vs New Zealand**, **Pak vs South Africa**, and **Aus vs Ind**—generate tens of millions of concurrent requests per second.\n\n      Full-stack software architect **Muhammad Daniyal (ItxMDK)** designs fault-tolerant real-time architectures using Node.js, distributed Redis PUB/SUB clusters, and WebSocket pipelines to stream ball-by-ball telemetry, live probability graphs, and social feed integrations (LinkedIn, Facebook, Reels) with sub-50ms latency.\n    "
   },
   {
-    "id": "zyphuel-on-demand-fuel-delivery",
-    "projectId": 999,
-    "title": "Zyphuel: Transforming On-Demand Mobile Fuel Delivery & Energy Logistics in Pakistan",
-    "slug": "zyphuel-on-demand-fuel-delivery",
-    "date": "August 2026",
-    "readTime": "6 min read",
-    "category": "Energy Logistics & IoT",
-    "excerpt": "Discover how Zyphuel is revolutionizing mobile refueling across Lahore and Pakistan with 24/7 doorstep delivery for fleets, generators, and personal vehicles.",
-    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-    "demoUrl": "https://zyphuel.netlify.app/",
-    "tags": [
-      "Zyphuel",
-      "Mobile Fuel",
-      "Lahore",
-      "IoT Logistics",
-      "Muhammad Daniyal"
-    ],
-    "isFlagship": true,
-    "content": "\n      ## The Rise of Smart Fuel Logistics in Pakistan\n      \n      In fast-paced metropolitan environments like Lahore, traditional fuel stations face immense challenges ranging from long queues and peak-hour congestion to fuel accessibility during emergency power outages. **Zyphuel** (also known in digital branding as *zphuel*), created and architected by Senior Full-Stack Engineer and Product Designer **Muhammad Daniyal (ItxMDK)**, was engineered to solve these structural energy distribution bottlenecks through digital transformation.\n\n      ### What is Zyphuel?\n      Zyphuel is Pakistan's premier on-demand mobile fuel delivery and digital energy logistics ecosystem. Operating 24/7, Zyphuel delivers certified petrol and diesel directly to:\n      - **Commercial Fleet Yards & Logistics Depots**\n      - **Corporate Emergency Generator Systems**\n      - **Residential & Commercial Vehicles at Doorstep**\n      - **Heavy Construction & Agricultural Equipment**\n\n      ### Real-Time Dispatch and Precision IoT Telemetry\n      Unlike conventional fuel supply chains, Zyphuel integrates automated dispatch pipelines with GPS geospatial tracking. Customers and fleet managers place orders through a streamlined mobile/web interface, assigning precise coordinates. Specialized, certified refueling vehicles equipped with calibrated flow meters and safety-sealed dispensers fulfill the order in real time.\n\n      ### Economic & Environmental Impact\n      By eliminating the need for fleets to divert to gas stations—a practice that wastes thousands of liters of fuel and work hours annually—Zyphuel reduces carbon emissions from unnecessary idling and provides transparent digital invoicing with zero fuel adulteration risks.\n    "
-  },
-  {
-    "id": "engineering-zyphuel-tech-stack",
-    "projectId": 998,
-    "title": "The Engineering Behind Zyphuel: Full-Stack Architecture, Telemetry & Real-Time Tracking",
-    "slug": "engineering-zyphuel-tech-stack",
-    "date": "August 2026",
-    "readTime": "8 min read",
-    "category": "Software Engineering",
-    "excerpt": "A deep technical breakdown of the architecture powering Zyphuel: React, Node.js, real-time WebSockets, telemetry sensors, and automated route optimization.",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-    "demoUrl": "https://zyphuel.netlify.app/",
-    "tags": [
-      "React",
-      "Node.js",
-      "System Architecture",
-      "Telemetry",
-      "ItxMDK"
-    ],
-    "isFlagship": true,
-    "content": "\n      ## Architecting a Mission-Critical Energy Logistics Engine\n\n      Building a platform that orchestrates physical fuel delivery requires high-reliability software engineering. Lead architect **Muhammad Daniyal (ItxMDK / itsmdk)** designed Zyphuel with a fault-tolerant microservices architecture capable of handling sub-second geospatial telemetry updates and dynamic order fulfillment.\n\n      ### 1. Frontend Client & Operator Dashboard (React & Tailwind CSS)\n      The client-side interface is developed with a lightning-fast React architecture, featuring interactive map visualizations, live telemetry monitors, and offline-first PWA capabilities.\n\n      ### 2. High-Throughput Backend & Geo-Dispatch Engine\n      The backend is powered by Node.js and distributed database clusters with MongoDB 2dsphere indexes for instant driver-to-client proximity calculations.\n\n      ### 3. Safety, Authentication & Invoicing Security\n      With mission-critical operations, Zyphuel implements end-to-end encrypted telemetry protocols, automated digital receipt generation, and fraud-proof payment gateway integrations.\n    "
-  },
-  {
-    "id": "poke-nexus-3d-webgl-engine",
-    "projectId": 997,
-    "title": "Poke Nexus: Developing Real-Time 3D Shaders & Procedural WebGL Graphics",
-    "slug": "poke-nexus-3d-webgl-engine",
-    "date": "August 2026",
-    "readTime": "6 min read",
-    "category": "3D & WebGL",
-    "excerpt": "Exploring the interactive 3D WebGL graphics pipeline, vertex shader mathematics, and high-performance physics behind the Poke Nexus interactive portal.",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-    "demoUrl": "https://interactive-solar-systems.netlify.app/",
-    "tags": [
-      "Poke Nexus",
-      "WebGL",
-      "Three.js",
-      "3D Shaders",
-      "Muhammad Daniyal"
-    ],
-    "isFlagship": true,
-    "content": "\n      ## High-Performance 3D in the Browser\n\n      **Poke Nexus**, engineered by Muhammad Daniyal (ItxMDK), pushes modern browser hardware acceleration to its limits using Three.js and custom GLSL fragment/vertex shaders.\n\n      ### Shader Pipelines & Lighting Models\n      By rendering lighting directly on the GPU, Poke Nexus achieves steady 60+ FPS rendering across desktop and mobile screens while managing complex scene meshes and physics collisions.\n\n      ### Interactive Controls & Camera Rigging\n      Custom orbital camera controllers and dampening algorithms deliver cinematic panning and responsive user interaction.\n    "
-  },
-  {
-    "id": "dashcart-modern-ecommerce-architecture",
-    "projectId": 996,
-    "title": "Dashcart: Engineering High-Concurrency Headless Commerce & Instant State Sync",
-    "slug": "dashcart-modern-ecommerce-architecture",
-    "date": "August 2026",
-    "readTime": "5 min read",
-    "category": "Software Engineering",
-    "excerpt": "How Dashcart achieves instantaneous multi-product filtering, sub-millisecond cart updates, and robust payment gateway orchestration.",
-    "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-    "demoUrl": "https://dashcart.online/",
-    "tags": [
-      "Dashcart",
-      "E-Commerce",
-      "React",
-      "Redux",
-      "Stripe API"
-    ],
-    "isFlagship": true,
-    "content": "\n      ## The Architecture of Ultra-Fast Commerce\n\n      **Dashcart**, designed and developed by Muhammad Daniyal, eliminates conventional e-commerce latency through optimized Redux state stores, client-side indexing, and asynchronous checkout pipelines.\n\n      ### Instant Catalog Filtering\n      Using in-memory search trees, users can filter through thousands of SKU permutations without triggering full page reloads or database round-trips.\n\n      ### Secure Checkout & Multi-Channel Sync\n      Integrated with Stripe and modern payment processors with automated webhook verification and tamper-proof inventory state validation.\n    "
-  },
-  {
     "id": "project-article-130",
     "projectId": 130,
     "title": "Inside Zyphuel: Architecture, Physics & Interactive UI",
@@ -145,7 +188,7 @@ export const zyphuelArticles = [
     "readTime": "4 min read",
     "category": "CSS Engineering",
     "excerpt": "Deep-dive case study on Zyphuel (Project #130): Exploring the CSS transforms, DOM physics, and interactive frontend design by Muhammad Daniyal.",
-    "image": "/public/images/logo.png",
+    "image": "/images/logo.png",
     "demoUrl": "https://zyphuel.netlify.app/",
     "tags": [
       "Fuel Delivery Website",
