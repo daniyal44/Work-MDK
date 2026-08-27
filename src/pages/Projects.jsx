@@ -141,16 +141,20 @@ export default function Projects() {
             {featuredProjects.map((project) => (
               <div key={project.id} className="bg-white rounded-3xl overflow-hidden block flex flex-col justify-between border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-500 transition-all duration-300">
                 <div>
-                  <div className="image-zoom-container h-52 bg-slate-50 border-b border-slate-100 relative">
+                  <div className="relative h-56 w-full overflow-hidden bg-slate-900 border-b border-slate-100 flex items-center justify-center">
                     <img
                       src={project.image}
                       alt={`${project.title} Showcase`}
-                      className="w-full h-full object-cover"
+                      className={`w-full h-full ${
+                        project.image?.toLowerCase().includes('logo') || project.image?.toLowerCase().includes('zyphuel')
+                          ? 'object-contain p-6 bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 transition-transform duration-500 hover:scale-105'
+                          : 'object-cover object-top transition-transform duration-500 hover:scale-105'
+                      }`}
                       decoding="async"
                       loading="lazy"
                     />
                     {project.category && (
-                      <span className="absolute top-3 left-3 px-2.5 py-1 rounded-full text-[10px] uppercase font-bold bg-white/90 backdrop-blur border border-slate-200 text-blue-700 shadow-sm">
+                      <span className="absolute top-3 left-3 px-2.5 py-1 rounded-full text-[10px] uppercase font-bold bg-white/90 backdrop-blur border border-slate-200 text-blue-700 shadow-sm z-10">
                         {project.category}
                       </span>
                     )}
@@ -181,7 +185,7 @@ export default function Projects() {
                     rel="noopener noreferrer"
                     className="flex-1 text-center py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-semibold transition shadow-sm"
                   >
-                    Link
+                    View live wesbite
                   </a>
                   <a
                     href={project.githubUrl}

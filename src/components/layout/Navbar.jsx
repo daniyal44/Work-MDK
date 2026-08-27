@@ -22,10 +22,16 @@ export default function Navbar() {
         <Link 
           to="/" 
           onClick={closeMobileMenu}
-          className="text-2xl font-bold flex items-center gap-2 text-blue-600 tracking-wider font-display group"
+          className="text-xl sm:text-2xl font-bold flex items-center gap-2.5 text-slate-900 tracking-tight font-display group"
         >
-          <i className="ri-gallery-line text-2xl text-blue-600 group-hover:rotate-12 transition-transform duration-300"></i>
-          <span className="text-slate-900 font-extrabold">MDK <span className="text-blue-600">Gallery</span></span>
+          <img 
+            src="/images/gallery.png" 
+            alt="MDK Gallery Logo" 
+            className="w-8 h-8 sm:w-9 sm:h-9 object-contain rounded-xl shadow-xs group-hover:scale-105 transition-transform duration-300" 
+          />
+          <span className="font-extrabold flex items-center gap-1">
+            MDK <span className="text-blue-600">Gallery</span>
+          </span>
         </Link>
 
         {/* Desktop Navigation Links */}

@@ -4,9 +4,9 @@ export const featuredProjects = [
     title: "Zyphuel — On-Demand Mobile Fuel Logistics Platform",
     category: "Energy Logistics & IoT",
     description: "Pakistan's premier 24/7 on-demand mobile fuel delivery ecosystem engineered by Muhammad Daniyal. Features real-time GPS telemetry, automated fleet dispatch, smart digital dispensing, and B2B generator refueling.",
-    image: "https://images.unsplash.com/photo-1545454675-3531b543be5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "/images/Zyphuel-logo.png",
     tags: ["Zyphuel", "React", "Node.js", "IoT Telemetry", "Geospatial GPS", "Fleet Management"],
-    demoUrl: "https://zyphuel.netlify.app/",
+    demoUrl: "https://zyphuel.netlify.app/download",
     githubUrl: "https://github.com/daniyal44/"
   },
   {

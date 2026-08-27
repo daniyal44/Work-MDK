@@ -26,7 +26,11 @@ export default function GalleryCard({ item }) {
           loading="lazy"
           decoding="async"
           onError={handleImageError}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-108"
+          className={`w-full h-full ${
+            imgSrc?.toLowerCase().includes('logo') || imgSrc?.toLowerCase().includes('zyphuel')
+              ? 'object-contain p-4 bg-slate-900'
+              : 'object-cover'
+          } transition-transform duration-500 group-hover:scale-108`}
         />
         <div className="absolute inset-0 bg-blue-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
       </div>

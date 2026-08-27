@@ -1164,7 +1164,7 @@ export const galleryItems = [
     "id": 130,
     "title": "Zyphuel",
     "url": "https://zyphuel.netlify.app/",
-    "image": "/public/images/logo.png",
+    "image": "/images/logo.png",
     "alt": "Zyphuel Fuel Delivery within 45 mins at door step",
     "tag": "Fuel Delivery Website",
     "source": "external"
