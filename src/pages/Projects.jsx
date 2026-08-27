@@ -109,7 +109,7 @@ export default function Projects() {
               <div className="relative group">
                 <div className="relative bg-white border border-slate-200 rounded-3xl p-3 shadow-lg overflow-hidden max-w-sm">
                   <img
-                    src="https://i.postimg.cc/05bcb8rt/MDK2.png"
+                    src="/images/daniyal.jpeg"
                     alt="Muhammad Daniyal Portrait - Creator of Zyphuel & ItxMDK"
                     className="w-full h-auto object-cover rounded-2xl transition duration-500 group-hover:scale-105"
                     decoding="async"
