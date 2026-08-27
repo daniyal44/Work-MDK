@@ -18,7 +18,7 @@
     <xhtml:link rel="alternate" hreflang="en-AE" href="https://workmdk.netlify.app/"/>
     <xhtml:link rel="alternate" hreflang="en-PK" href="https://workmdk.netlify.app/"/>
     <image:image>
-      <image:loc>https://i.postimg.cc/zDFwVm0R/a-3d-render-of-a-sleek-logo-displaying-t-WRu-g5NXRt6KYp-FGOq-b-Lw-16RSYne-RDW8XD5oo3lm-JA.jpg</image:loc>
+      <image:loc>/images/gallery.png</image:loc>
       <image:title>Muhammad Daniyal (ItxMDK) - Zyphuel Fuel Logistics, Petrol Price Tracker &amp; Digital Portfolio</image:title>
       <image:caption>Official Portfolio of Muhammad Daniyal (ItxMDK / MDK): Zyphuel Mobile Refueling, Dashcart E-Commerce, Poke Nexus 3D, Hittop, Scale Verse, and Ladoni</image:caption>
     </image:image>
@@ -63,7 +63,7 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://workmdk.netlify.app/services"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://workmdk.netlify.app/services"/>
     <image:image>
-      <image:loc>https://i.postimg.cc/zDFwVm0R/a-3d-render-of-a-sleek-logo-displaying-t-WRu-g5NXRt6KYp-FGOq-b-Lw-16RSYne-RDW8XD5oo3lm-JA.jpg</image:loc>
+      <image:loc>/images/gallery.png</image:loc>
       <image:title>Services: Full-Stack Web Development, IoT Telemetry &amp; E-Commerce Architecture</image:title>
       <image:caption>Engineering services by Muhammad Daniyal (ItxMDK): Web apps, 3D WebGL, mobile development, and SEO/AEO/GEO optimization</image:caption>
     </image:image>
@@ -93,7 +93,7 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://workmdk.netlify.app/contact"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://workmdk.netlify.app/contact"/>
     <image:image>
-      <image:loc>https://i.postimg.cc/zDFwVm0R/a-3d-render-of-a-sleek-logo-displaying-t-WRu-g5NXRt6KYp-FGOq-b-Lw-16RSYne-RDW8XD5oo3lm-JA.jpg</image:loc>
+      <image:loc>/images/gallery.png</image:loc>
       <image:title>Contact Muhammad Daniyal (ItxMDK) &amp; Zyphuel</image:title>
       <image:caption>Inquire for software development, energy telemetry partnerships, or web engineering with Muhammad Daniyal</image:caption>
     </image:image>

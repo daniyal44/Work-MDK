@@ -1,7 +1,7 @@
 export const siteMetadata = {
   siteName: "MDK Gallery",
   siteUrl: "https://workmdk.netlify.app",
-  defaultImage: "https://i.postimg.cc/zDFwVm0R/a-3d-render-of-a-sleek-logo-displaying-t-WRu-g5NXRt6KYp-FGOq-b-Lw-16RSYne-RDW8XD5oo3lm-JA.jpg",
+  defaultImage: "/images/gallery.png",
   author: "Muhammad Daniyal (MDK / ItxMDK / itsmdk / Zyphuel)",
   phone: "+923230112464",
   email: "m.daniyalkhan490@gmail.com",

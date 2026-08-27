@@ -24,7 +24,11 @@ export default function Footer() {
               to="/" 
               className="text-2xl font-bold flex items-center gap-2 text-blue-600 tracking-wider font-display group inline-block"
             >
-              <i className="ri-gallery-line text-2xl text-blue-600 group-hover:rotate-12 transition-transform duration-300"></i>
+              <img 
+                src="/images/gallery.png" 
+                alt="MDK Gallery Logo" 
+                className="w-8 h-8 sm:w-9 sm:h-9 object-contain rounded-xl shadow-xs group-hover:scale-105 transition-transform duration-300" 
+              />
               <span className="text-slate-900 font-extrabold">MDK <span className="text-blue-600">Gallery</span></span>
             </Link>
             <p className="text-xs text-slate-500 leading-relaxed">
